@@ -4,10 +4,11 @@ import reportWebVitals from './reportWebVitals';
 import Main from './components/Main.js';
 import style from './style/style.css';
 import core from './style/core.css';
+import Maintence from './components/Maintence';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main />
+    <Maintence />
   </React.StrictMode>,
   document.getElementById('wrapper')
 );
