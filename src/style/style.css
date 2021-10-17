@@ -1,0 +1,248 @@
+/*Wrapper*/
+#wrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*Navbar*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-title {
+    font-weight: bold;
+}
+
+#navbar-title a {
+    text-decoration: none;
+}
+
+#navbar-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: var(--maxgap);
+}
+
+/* Main */
+#section-main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--maxgap);
+}
+
+
+#section-main-title {
+    text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+    color: var(--glow1);
+}
+
+/* Latest articles */
+
+#section-latest-articles {
+    display: flex;
+    flex-direction: column;
+    gap: var(--hugegap);
+}
+
+.section-latest-articles-image {
+    line-height: 1.9rem;
+}
+
+.section-latest-articles-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-latest-articles-body {
+    display: flex;
+    flex-direction: row;
+    gap: var(--mediumgap);
+}
+
+.section-latest-articles-body-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--tinygap);
+}
+
+.section-latest-articles-body-content-title {
+    font-weight: 500;
+    font-size: var(--mediumfont);
+}
+
+#section-latest-articles .link {
+    font-weight: 400;
+}
+
+/* Latest projects */
+#latest-projects {
+    display: flex;
+    flex-direction: column;
+    gap: var(--biggap);
+}
+
+#latest-projects-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 14rem 14rem;
+    grid-template-areas: "one one" "two three";
+    gap: var(--biggap);
+}
+
+.latest-projects-body-item {
+    background-color: #1C2C35;
+    border-radius: 8px;
+    border-left: 8px solid #CCA9F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: var(--hugegap);
+}
+
+.latest-projects-body-item:hover {
+    border-color: #81F59B;
+}
+
+.latest-projects-body-item:nth-child(1) {
+    grid-area: one;
+}
+
+.latest-projects-body-item:nth-child(2) {
+    grid-area: two;
+}
+
+.latest-projects-body-item:nth-child(3) {
+    grid-area: three;
+}
+
+.latest-projects-body-item-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.latest-projects-body-item-desc {
+    font-weight: 300;
+    font-size: var(--mediumfont);
+    color: var(--text2);
+}
+
+/* Footer */
+#page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#page-footer-content p {
+    font-weight: 400;
+    font-size: var(--smallfont);
+}
+
+#page-footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--mediumgap);
+}
+
+#page-footer-social-media {
+    display: flex;
+    flex-direction: row;
+    gap: var(--biggap);
+}
+
+#page-footer-social-media img {
+    height: 20px;
+}
+
+#page-footer-list {
+    list-style-type: none;
+    font-size: var(--smallfont);
+    font-weight: 200;
+}
+
+/* Articles Page */
+.article {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--biggap);
+}
+
+/* Projects Page */
+
+.project-preview {
+    background-color: #1C2C35;
+    border-radius: 8px;
+    border-left: 8px solid #CCA9F4;
+    min-height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: var(--hugegap);
+}
+
+.project-preview:hover {
+    border-color: #81F59B;
+}
+
+.project-preview-techs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--biggap);
+}
+
+/* Page Not Found */
+#page-not-found {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#img-404 {
+    background-image: url("../imagens/404.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+}
+
+/* Contact Page */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        width: 90%;
+    }
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--biggap);
+    }
+    #navbar-title {
+        font-size: var(--header2font);
+    }
+    #section-main-title {
+        text-align: center;
+    }
+    #latest-projects-body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 14rem 14rem 14rem;
+        grid-template-areas: "one" "two" "three";
+    }
+    .article {
+        width: 100%;
+    }
+}
