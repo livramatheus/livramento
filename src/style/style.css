@@ -168,7 +168,7 @@
 }
 
 /* Articles Page */
-.article {
+.article-preview {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -209,7 +209,7 @@
 }
 
 #img-404 {
-    background-image: url("../imagens/404.svg");
+    background-image: url("../assets/404.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

@@ -8,10 +8,10 @@ export default function () {
                 <Link to="/">☕ Matheus do Livramento</Link>
             </div>
             <div id="navbar-buttons">
-                <Link to="/articles" className="link">Artigos</Link>
-                <Link to="/projects" className="link">Projetos</Link>
-                <Link to="/about" className="link">Sobre</Link>
-                <Link to="/contact" className="link">Contato</Link>
+                <Link to="/articles" className="link">Articles</Link>
+                <Link to="/projects" className="link">Projects</Link>
+                <Link to="/about" className="link">About</Link>
+                <Link to="/contact" className="link">Contact</Link>
             </div>
         </nav>
     );

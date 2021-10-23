@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import Main from './components/Main.js';
+import MainPage from './pages/MainPage.js';
 import style from './style/style.css';
 import core from './style/core.css';
-import Maintence from './components/Maintence';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Maintence />
+    <MainPage />
   </React.StrictMode>,
   document.getElementById('wrapper')
 );

@@ -1,10 +1,10 @@
 import { Route, Switch, useRouteMatch } from "react-router-dom";
 import { useState } from "react";
 
-import ProjectPreview from "./ProjectPreview";
-import Project from "./Project";
+import ProjectPreview from "../components/Projects";
+import Project from "../components/Project";
 
-export default function Projects() {
+export default function ProjectsPage() {
 
     const [projItem, setProjItem] = useState(
         [

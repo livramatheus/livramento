@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
-import imgLinkedIn from '../imagens/white-social-icons/linkedin.svg';
-import imgInstagram from '../imagens/white-social-icons/instagram.svg';
-import imgFacebook from '../imagens/white-social-icons/facebook.svg';
-import imgGithub from '../imagens/white-social-icons/github.svg';
+import imgLinkedIn from '../assets/white-social-icons/linkedin.svg';
+import imgInstagram from '../assets/white-social-icons/instagram.svg';
+import imgFacebook from '../assets/white-social-icons/facebook.svg';
+import imgGithub from '../assets/white-social-icons/github.svg';
 
 export default function Footer() {
 
@@ -14,9 +14,6 @@ export default function Footer() {
                     Desenvolvido por Matheus do Livramento
                 </p>
                 <ul id="page-footer-list">
-                    <li>
-                        <Link to="/references" className="link">References</Link>
-                    </li>
                     <li>
                         <Link to="/about" className="link">Sobre</Link>
                     </li>

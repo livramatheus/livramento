@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
 
-import ArticlePreview from "./ArticlePreview";
-import Article from "./Article";
+import Article from "../components/Article";
+import Articles from "../components/Articles";
 
-export default function Articles() {
+export default function ArticlesPage() {
 
     const [artItem, setArtItem] = useState(
         [
@@ -25,7 +25,7 @@ export default function Articles() {
                     {
                         artItem.map(
                             (item) => {
-                                return <ArticlePreview
+                                return <Articles
                                     idArt={item.idArt}
                                     title={item.title}
                                     date={item.date}
