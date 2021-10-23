@@ -15,8 +15,7 @@ import PageNotFound from '../components/PageNotFound';
 import ScrollToTop from '../components/ScrollToTop';
 
 export default function Main() {
-    console.log(process.env)
-    console.log(process.env.REACT_APP_MAINTENANCE)
+
     if (process.env.REACT_APP_MAINTENANCE == 1) {
         return (
             <h1>⚠ Under Maintenance!</h1>
