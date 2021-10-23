@@ -9,6 +9,7 @@ import LatestProjects from '../components/LatestProjects';
 import Footer from '../components/Footer';
 import AboutPage from './AboutPage';
 import ArticlesPage from './ArticlesPage';
+import LearningPage from './LearningPage';
 import ContactPage from './ContactPage';
 import ProjectsPage from './ProjectsPage';
 import PageNotFound from '../components/PageNotFound';
@@ -42,12 +43,16 @@ export default function Main() {
                     <ArticlesPage />
                 </Route>
 
-                <Route path="/contact">
-                    <ContactPage />
-                </Route>
-
                 <Route path="/projects">
                     <ProjectsPage />
+                </Route>
+
+                <Route path="/learning">
+                    <LearningPage />
+                </Route>
+                
+                <Route path="/contact">
+                    <ContactPage />
                 </Route>
 
                 <Route path="*">
