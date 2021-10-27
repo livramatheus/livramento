@@ -11,7 +11,7 @@ import AboutPage from './AboutPage';
 import ArticlesPage from './ArticlesPage';
 import LearningPage from './LearningPage';
 import ContactPage from './ContactPage';
-import ProjectsPage from './ProjectsPage';
+import PortfolioPage from './PortfolioPage';
 import PageNotFound from '../components/PageNotFound';
 import ScrollToTop from '../components/ScrollToTop';
 
@@ -43,8 +43,8 @@ export default function Main() {
                     <ArticlesPage />
                 </Route>
 
-                <Route path="/projects">
-                    <ProjectsPage />
+                <Route path="/portfolio">
+                    <PortfolioPage />
                 </Route>
 
                 <Route path="/learning">

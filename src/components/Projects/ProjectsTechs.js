@@ -4,7 +4,7 @@ function ProjectsTechs(props) {
 
     return (
         <div className="project-preview-techs">
-            {technologies}
+            Technologies used: {technologies}
         </div>
     );
 }

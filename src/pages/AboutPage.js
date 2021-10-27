@@ -2,13 +2,13 @@ export default function AboutPage() {
 
     return (
         <>
-            <div className="header1">About</div>
+            <h1>About</h1>
 
             <article className="article">
                 <div>
-                    <h1 className="header2">
+                    <h2>
                         Profissional
-                    </h1>
+                    </h2>
                 </div>
                 <div className="text">
                     <p className="text-paragraph">
@@ -20,9 +20,9 @@ export default function AboutPage() {
                 </div>
 
                 <div>
-                    <h1 className="header2">
+                    <h2>
                         Development
-                    </h1>
+                    </h2>
                 </div>
 
                 <div className="text">

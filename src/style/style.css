@@ -180,6 +180,15 @@
     gap: var(--biggap);
 }
 
+.article-title h1 {
+    margin-bottom: 0;
+}
+
+.article-title {
+    gap: 0;
+    margin-bottom: 3rem;
+}
+
 /* Projects Page */
 
 .project-preview {
@@ -204,6 +213,9 @@
     gap: var(--biggap);
 }
 
+.btn-project {
+    display: block;
+}
 /* Page Not Found */
 
 #page-not-found {

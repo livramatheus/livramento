@@ -4,9 +4,9 @@ function ProjectsHeader(props) {
 
     return (
         <div>
-            <h1 className="header2">
+            <h2>
                 {title}
-            </h1>
+            </h2>
         </div>
     );
 }

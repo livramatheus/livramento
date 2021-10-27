@@ -1,7 +1,7 @@
 function LearningPage() {
     return (
         <>
-            <div className="header1">What am I learning right now?</div>
+            <h1>What am I learning right now?</h1>
 
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

@@ -1,12 +1,33 @@
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { getArticle } from "../../services/ServicesArticles";
+import ArticleTitle from "./ArticleTitle";
+import ArticleDescription from "./ArticleDescription";
+import ArticleAbstract from "./ArticleAbstract";
 
 export default function Article() {
 
     let { articleId } = useParams();
+    const [articleData, setArticleData] = useState();
+    const history = useHistory();
+
+    useEffect(() => {
+        getArticle(articleId).then((result) => {
+            setArticleData(result.data);
+        }).catch((error) => {
+            history.push("/404");
+        });
+    }, [articleId]);
 
     return (
-        <h1>
-            Você está vendo o artigo {articleId}!
-        </h1>
+        articleData ? (
+            <article>
+                <ArticleTitle title={articleData.title} date={articleData.date}/>
+                
+                <ArticleAbstract abstract={articleData.abstract} />
+
+                <ArticleDescription description={articleData.description} />
+            </article>
+        ) : (<h1>Loading...</h1>)
     );
 }

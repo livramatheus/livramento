@@ -3,11 +3,11 @@ import { useRouteMatch, Link } from "react-router-dom";
 function ProjectsLink(props) {
 
     let { url } = useRouteMatch();
-    let { idProj } = props;
+    let { id } = props;
 
     return (
-        <div>
-            <Link to={`${url}/${idProj}`} className="btn">View More</Link>
+        <div className="btn-project">
+            <Link to={`${url}/${id}`} className="btn">View More</Link>
         </div>
     );
 }

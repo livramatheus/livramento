@@ -1,7 +1,7 @@
 function SectionMainTitle() {
 
     return (
-        <h1 id="section-main-title" className="header1">
+        <h1 id="section-main-title">
             Matheus do Livramento, Lorem ipsum dolor sit amet, consectetur.
         </h1>
     );

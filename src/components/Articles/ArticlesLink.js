@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 
 function ArticlesLink(props) {
-
-    let { url, idArt } = props;
-
-    return (<Link to={`${url}/${idArt}`} className="small-link">Read More...</Link>);
+    let { id, url } = props;
+    
+    return (<Link to={`${url}/${id}`} className="small-link">Read More...</Link>);
 }
 
 export default ArticlesLink;

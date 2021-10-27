@@ -2,13 +2,13 @@ export default function ContactPage() {
 
     return (
         <>
-            <div className="header1">Contact</div>
+            <h1>Contact</h1>
 
             <article className="article">
                 <div>
-                    <h1 className="header2">
+                    <h2>
                         Profissional
-                    </h1>
+                    </h2>
                 </div>
                 <div className="text">
                     <p className="text-paragraph">
@@ -31,9 +31,9 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                    <h1 className="header2">
+                    <h2>
                         Development
-                    </h1>
+                    </h2>
                 </div>
 
                 <div className="text">
