@@ -83,6 +83,27 @@
     font-weight: 400;
 }
 
+/* #project | Article */
+#project {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#project a {
+    color: #4d6dff;
+}
+
+/* Project description */
+.project-description h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.project-description h3 {
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
 /* Latest projects */
 
 #latest-projects {
@@ -146,7 +167,6 @@
 
 #page-footer-content p {
     font-weight: 400;
-    font-size: var(--smallfont);
 }
 
 #page-footer-content {
@@ -186,7 +206,6 @@
 
 .article-title {
     gap: 0;
-    margin-bottom: 3rem;
 }
 
 /* Projects Page */

@@ -5,7 +5,7 @@ function ProjectDescription(props) {
     let { description } = props;
 
     return (
-        <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(description) }}></div>
+        <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(description) }} className="project-description"></div>
     );
 }
 

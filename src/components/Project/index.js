@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import ProjectTitle from './ProjectTitle';
 import ProjectAbstract from './ProjectAbstract';
 import ProjectDescription from './ProjectDescription';
-import format from "date-fns/format";
 import ProjectRepo from "./ProjectRepo";
 
 export default function Project() {
@@ -15,7 +14,6 @@ export default function Project() {
 
     useEffect(() => {
         getProject(projId).then((result) => {
-            result.data.launchdate = format(new Date(result.data.launchdate), "PPPP");
             setProjectData(result.data);
         }).catch((error) => {
             history.push('/404');
@@ -24,10 +22,10 @@ export default function Project() {
 
     return (
         projectData ? (
-            <article>
+            <article id="project">
                 <ProjectTitle title={projectData.title} date={projectData.launchdate} />
+                <ProjectAbstract abstract={projectData.abstract} technologies={projectData.technologies} />
                 {projectData.gitaddr && <ProjectRepo gitaddr={projectData.gitaddr} />}
-                <ProjectAbstract abstract={projectData.abstract} />
                 <ProjectDescription description={projectData.description} />
             </article>
         ) : (

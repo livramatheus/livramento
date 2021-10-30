@@ -1,10 +1,12 @@
 
 function ProjectAbstract(props) {
 
-    let { abstract } = props;
+    let { abstract, technologies } = props;
 
     return (
-        <span>{abstract}</span>
+        <blockquote>
+            <p>{abstract} It was developed with {technologies}</p>
+        </blockquote>
     );
 }
 

@@ -39,10 +39,6 @@ export default function Main() {
                     <AboutPage />
                 </Route>
 
-                <Route path="/articles">
-                    <ArticlesPage />
-                </Route>
-
                 <Route path="/portfolio">
                     <PortfolioPage />
                 </Route>

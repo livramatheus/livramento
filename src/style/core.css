@@ -28,6 +28,12 @@
     padding: 0;
     color: var(--text1);
     font-family: 'Jost', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 500;
 }
 
 body {
@@ -38,7 +44,7 @@ body {
 }
 
 article {
-    line-height: 2rem;
+    line-height: 1.6rem;
 }
 
 article div {
@@ -47,12 +53,35 @@ article div {
     gap: var(--hugegap);
 }
 
+article .link {
+    color: #3b6fff;
+}
+
 ul, ol, dd {
     margin-left: 3rem;
 }
 
 mark {
     background-color: #9a52ec;
+}
+
+blockquote {
+    background-color: var(--blue2);
+    border-left: 10px solid var(--blue5);
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+blockquote:before {
+    color: var(--text2);
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    color: var(--text2);
+    display: inline;
 }
 
 /** Table */
@@ -127,8 +156,9 @@ td {
 
 .gh-btn {
     text-decoration: none;
-    background: rgb(245,245,245);
-    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(170,170,170,1) 100%);
+    font-weight: 400;
+    background: rgb(245, 245, 245);
+    background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(170, 170, 170, 1) 100%);
     border-radius: 3px;
     padding: 0 1rem 0 1rem;
     height: 2rem;
@@ -139,15 +169,15 @@ td {
     gap: 0.7rem;
     line-height: 2.1rem;
     justify-content: center;
-    color: var(--blue1);
+    color: var(--blue1) !important;
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .gh-btn:hover {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(185,185,185,1) 90%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(185, 185, 185, 1) 90%);
 }
 
 .gh-btn img {
@@ -184,12 +214,26 @@ h2 {
 .img-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
     gap: 1rem;
 }
 
-.img-row img {
-    max-width: 90%;
+.desktop {
+    gap: 1%;
+    row-gap: 1vh;
+}
+
+.desktop img {
+    max-width: 49%;
+}
+
+.mobile {
+    gap: 1%;
+    row-gap: 1vh;
+}
+
+.mobile img {
+    max-width: 24%;
 }
 
 .text {

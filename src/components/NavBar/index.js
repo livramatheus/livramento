@@ -8,7 +8,6 @@ export default function () {
                 <Link to="/">☕ Matheus do Livramento</Link>
             </div>
             <div id="navbar-buttons">
-                <Link to="/articles" className="link">Articles</Link>
                 <Link to="/portfolio" className="link">Portfolio</Link>
                 <Link to="/learning" className="link">Learning</Link>
                 <Link to="/about" className="link">About</Link>
