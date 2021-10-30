@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function LatestProjectsListItemLink(props) {
 
-    let { idProj } = props;
+    let { id } = props;
 
     return (
         <div>
-            <Link to={`/projects/${idProj}`} className="btn">View More</Link>
+            <Link to={`/projects/${id}`} className="btn">View More</Link>
         </div>
     );
 }

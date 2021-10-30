@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 function LatestProjectsListItem(props) {
 
-    let { title, desc, idProj} = props;
+    let { id, title, abstract } = props;
 
     useEffect(() => {
         Aos.init({
@@ -18,8 +18,8 @@ function LatestProjectsListItem(props) {
     return (
         <div className="latest-projects-body-item" data-aos="fade-up" data-aos-once="true">
             <LatestProjectsListItemTitle title={title} />
-            <LatestProjectsListItemContent desc={desc} />
-            <LatestProjectsListItemLink idProj={idProj} />
+            <LatestProjectsListItemContent abstract={abstract} />
+            <LatestProjectsListItemLink id={id} />
 
         </div>
     );

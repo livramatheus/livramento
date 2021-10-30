@@ -4,11 +4,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import NavBar from '../components/NavBar';
 import SectionMain from '../components/SectionMain';
-import LatestArticles from '../components/LatestArticles';
 import LatestProjects from '../components/LatestProjects';
 import Footer from '../components/Footer';
 import AboutPage from './AboutPage';
-import ArticlesPage from './ArticlesPage';
 import LearningPage from './LearningPage';
 import ContactPage from './ContactPage';
 import PortfolioPage from './PortfolioPage';
@@ -31,7 +29,6 @@ export default function Main() {
             <Switch>
                 <Route exact path="/">
                     <SectionMain />
-                    <LatestArticles />
                     <LatestProjects />
                 </Route>
 

@@ -1,10 +1,10 @@
 function LatestProjectsListItemContent(props) {
 
-    let { desc } = props;
+    let { abstract } = props;
 
     return (
         <div className="latest-projects-body-item-desc">
-            {desc}
+            {abstract}
         </div>
     );
 }

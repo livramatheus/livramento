@@ -1,6 +1,20 @@
 import LatestProjectsListItem from './LatestProjectsListItem';
+import { useEffect, useState } from 'react';
+import { getProjects } from '../../../services/ServicesProjects';
 
 function LatestProjectsList() {
+
+    const [latest, setLatest] = useState();
+
+    useEffect(() => {
+        getProjects().then((response) => {
+            response.data = response.data.filter((e, i) => {
+                return i < 3;
+            });
+
+            setLatest(response.data);
+        });
+    }, []);
 
     const latProjItm = [
         { idProj: 1, title: 'Yawnch', desc: 'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
@@ -11,7 +25,7 @@ function LatestProjectsList() {
     return (
         <div id="latest-projects-body">
             {
-                latProjItm.map(
+                latest && latest.map(
                     (item, id) => {
                         return <LatestProjectsListItem {...item} key={item.id} />
                     }
