@@ -35,7 +35,7 @@
 }
 
 strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 body {
@@ -201,6 +201,10 @@ td {
     text-decoration: underline;
 }
 
+.header-article-title {
+    margin-bottom: 5rem;   
+}
+
 h1 {
     color: var(--text1);
     font-size: var(--header1font);
@@ -319,6 +323,10 @@ h2 {
     
     .mobile img {
         max-width: 49%;
+    }
+
+    .header-article-title {
+        margin-bottom: 2rem;
     }
 }
 

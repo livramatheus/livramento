@@ -118,12 +118,34 @@
 
 .project-description h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 1rem;
 }
 
 .project-description h3 {
     font-weight: 700;
     font-size: 1.12rem;
+    margin-top: 1rem;
 }
+
+/* Learning page */
+.learning-intro {
+    display: block;
+}
+
+.learning-intro p {
+    padding-bottom: var(--hugegap);
+}
+
+.learning-intro > svg {
+    float: left;
+    width: 40%;
+    margin-right: 2rem;
+}
+
+article h2 {
+    margin-top: 1rem;
+}
+
 
 /* Latest projects */
 
@@ -461,5 +483,20 @@
         grid-template-columns: 1fr;
         grid-template-rows: 14rem 14rem 14rem;
         grid-template-areas: "one" "two" "three";
+    }
+    /* Learning page */
+    .learning-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .learning-intro > svg {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .learning-intro p {
+        padding-bottom: 0;
     }
 }
