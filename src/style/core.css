@@ -10,6 +10,8 @@
     --biggap: 0.8rem;
     --hugegap: 1rem;
     --maxgap: 2rem;
+    --desktopgap: 2rem;
+    --mobilegap: 0.5rem;
     /* Colors */
     --glow1: #B0FBBC;
     --glow2: #82F9A1;
@@ -41,6 +43,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    max-width: 100% !important;
 }
 
 article {
@@ -220,18 +223,13 @@ h2 {
     gap: 1rem;
 }
 
-.desktop {
+.desktop, .mobile {
     gap: 1%;
     row-gap: 1vh;
 }
 
 .desktop img {
     max-width: 49%;
-}
-
-.mobile {
-    gap: 1%;
-    row-gap: 1vh;
 }
 
 .mobile img {
@@ -309,4 +307,18 @@ h2 {
     .paragrafo-flex {
         flex-direction: column;
     }
+
+    .desktop, .mobile {
+        gap: 1%;
+        row-gap: 1vh;
+    }
+    
+    .desktop img {
+        max-width: 99%;
+    }
+    
+    .mobile img {
+        max-width: 49%;
+    }
 }
+

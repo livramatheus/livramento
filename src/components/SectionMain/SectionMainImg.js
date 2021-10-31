@@ -2,6 +2,7 @@ import { ReactComponent as MatheusCartoon } from "../../assets/matheus_cartoon.s
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { isMobile } from 'react-device-detect';
 
 function SectionMainImg() {
     
@@ -12,7 +13,7 @@ function SectionMainImg() {
     }, [])
 
     return (
-        <div className="section-main-img" data-aos="fade-left" data-aos-once="true">
+        <div className="section-main-img" data-aos={isMobile ? 'fade-up' : 'fade-left'} data-aos-once="true">
             <MatheusCartoon />
         </div>
     );
