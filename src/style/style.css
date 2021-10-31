@@ -228,7 +228,7 @@
 .about-intro {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 4rem;
     margin: var(--desktopgap) 0 var(--desktopgap) 0;
 }
 
@@ -422,6 +422,7 @@
     /* About intro */
     .about-intro {
         margin: var(--mobilegap) 0 var(--mobilegap) 0;
+        gap: 1rem;
     }
     .about-intro-body {
         flex-direction: column;
