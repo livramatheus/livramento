@@ -146,12 +146,12 @@ td {
 /* General */
 
 .btn {
+    cursor: pointer;
     text-decoration: none;
     border: 2px solid rgba(124, 201, 255, 0.41);
     border-radius: 6px;
     padding: 0.3rem 1.5rem 0.3rem 1.5rem;
     font-weight: 500;
-    font-size: 0.9rem;
 }
 
 .gh-btn {

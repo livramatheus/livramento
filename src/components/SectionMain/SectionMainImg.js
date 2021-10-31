@@ -1,0 +1,21 @@
+import { ReactComponent as MatheusCartoon } from "../../assets/matheus_cartoon.svg";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
+function SectionMainImg() {
+    
+    useEffect(() => {
+        Aos.init({
+            duration: 1000
+        });
+    }, [])
+
+    return (
+        <div className="section-main-img" data-aos="fade-left" data-aos-once="true">
+            <MatheusCartoon />
+        </div>
+    );
+}
+
+export default SectionMainImg;

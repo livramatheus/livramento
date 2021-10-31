@@ -11,7 +11,7 @@ function SectionMainTitle() {
     }, [])
 
     return (
-        <h1 id="section-main-title" data-aos="fade-left" data-aos-once="true">
+        <h1 id="section-main-title" data-aos="fade-right" data-aos-once="true">
             Matheus do Livramento, Lorem ipsum dolor sit amet, consectetur.
         </h1>
     );

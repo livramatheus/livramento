@@ -12,6 +12,7 @@ import ContactPage from './ContactPage';
 import PortfolioPage from './PortfolioPage';
 import PageNotFound from '../components/PageNotFound';
 import ScrollToTop from '../components/ScrollToTop';
+import AboutIntro from '../components/AboutIntro';
 
 export default function Main() {
 
@@ -29,6 +30,7 @@ export default function Main() {
             <Switch>
                 <Route exact path="/">
                     <SectionMain />
+                    <AboutIntro />
                     <LatestProjects />
                 </Route>
 

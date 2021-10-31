@@ -6,7 +6,7 @@ function LatestProjectsListItemLink(props) {
 
     return (
         <div>
-            <Link to={`/projects/${id}`} className="btn">View More</Link>
+            <Link to={`/portfolio/${id}`} className="btn">View More</Link>
         </div>
     );
 }
