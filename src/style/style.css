@@ -323,6 +323,7 @@
 
 .project-preview-techs {
     display: flex;
+    color: var(--blue5);
     flex-direction: row;
     justify-content: flex-start;
     gap: var(--biggap);

@@ -4,11 +4,7 @@ function LatestProjectsListItemLink(props) {
 
     let { id } = props;
 
-    return (
-        <div>
-            <Link to={`/portfolio/${id}`} className="btn">View More</Link>
-        </div>
-    );
+    return <Link to={`/portfolio/${id}`} className="btn">View More</Link>;
 }
 
 export default LatestProjectsListItemLink;

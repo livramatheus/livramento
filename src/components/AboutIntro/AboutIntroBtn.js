@@ -1,9 +1,5 @@
 function AboutIntroBtn() {
-    return (
-        <div className="about-intro-btn">
-            <span className="btn">Download Resume</span>
-        </div>
-    );
+    return <span className="btn">Download Resume</span>;
 }
 
 export default AboutIntroBtn;

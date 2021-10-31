@@ -152,6 +152,8 @@ td {
     border-radius: 6px;
     padding: 0.3rem 1.5rem 0.3rem 1.5rem;
     font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.0);
+    width: fit-content;
 }
 
 .gh-btn {
