@@ -67,10 +67,9 @@ export default function Timeline() {
                 <h3>Bachelor degree in Computer Science</h3>
                 <span className="desc-itm">Instituto Federal Catarinense, Rio do Sul, SC</span>
                 <p className="desc-timeline">
-                    Graduated in computer science, reaching maximum grade in the final
-                    thesis, which portrayed about Artificial Intelligence.
+                    Graduated in computer science, reaching maximum grade in the <a href="https://drive.google.com/file/d/1VsHvTJDwGn4vUQScyiBjY_rh2zSOYPOb/view?usp=sharing" target="_blank">final
+                    thesis</a>, which portrayed about Artificial Intelligence.
                 </p>
-                <p className="desc-timeline">Check my final thesis here (portuguese only)! </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}

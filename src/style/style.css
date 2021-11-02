@@ -414,6 +414,9 @@ article h2 {
     font-weight: 300 !important;
 }
 
+.desc-timeline a {
+    color: #4d6dff;
+}
 
 .desc-itm {
     color: var(--blue5);
