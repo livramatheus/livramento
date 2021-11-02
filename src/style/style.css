@@ -414,34 +414,6 @@ article h2 {
     font-weight: 300 !important;
 }
 
-.languages {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 100%;
-}
-
-.language-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 10rem;
-}
-
-.language-desc {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.language-data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 50%;
-    color: var(--text1);
-}
 
 .desc-itm {
     color: var(--blue5);
@@ -486,13 +458,43 @@ article h2 {
     text-align: center;   
 }
 
+.popover-style {
+    padding: 1rem !important;
+    background: var(--blue2) !important;
+}
+
+/* Languages */
+.languages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.lang-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-name-info {
+    cursor: pointer;
+}
+
+.language-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-item-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1160px) {
-    /* About */
-    .language-item {
-        padding: 0;
-    }
     /* About */
     .date-timeline {
         padding: 0.8rem 0rem !important;
