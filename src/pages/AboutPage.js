@@ -1,4 +1,5 @@
 import Languages from '../components/Languages';
+import Timeline from '../components/Timeline';
 
 export default function AboutPage() {
 
@@ -7,6 +8,7 @@ export default function AboutPage() {
             <h1>About</h1>
 
             <Languages />
+            <Timeline />
             
             <article className="article">
                 <div>
@@ -28,8 +30,6 @@ export default function AboutPage() {
                         Development
                     </h2>
                 </div>
-
-                <Languages />
 
                 <div className="text">
                     <p className="text-paragraph">

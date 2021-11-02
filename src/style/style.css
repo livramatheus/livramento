@@ -402,7 +402,11 @@ article h2 {
     width: 30px;
 }
 
-/* Languages */
+/* About */
+
+.date-timeline {
+    padding: 0.8rem 1rem !important;
+}
 
 .languages {
     display: flex;
@@ -440,10 +444,14 @@ article h2 {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 1160px) {
     /* About */
     .language-item {
         padding: 0;
+    }
+    /* About */
+    .date-timeline {
+        padding: 0.8rem 0rem !important;
     }
 }
 
