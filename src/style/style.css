@@ -127,6 +127,8 @@
     margin-top: 1rem;
 }
 
+
+
 /* Learning page */
 
 .learning-intro {
@@ -439,7 +441,45 @@ article h2 {
 
 .desc-itm {
     color: var(--blue5);
+    font-style: italic;
     gap: 0;
+}
+
+/* Skills */
+
+.skill-card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    row-gap: 1rem;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: calc(33% - 0.8rem);
+    background-color: #1C2C35;
+    border-radius: 8px;
+    border-left: 8px solid #CCA9F4;
+    text-align: center;
+}
+
+.skill-card-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.skill-card-header {
+    gap: 0;
+}
+
+.skill-card h3 {
+    text-align: center;   
 }
 
 /* Media Queries */
@@ -452,6 +492,9 @@ article h2 {
     /* About */
     .date-timeline {
         padding: 0.8rem 0rem !important;
+    }
+    .skill-card {
+        width: calc(100% - 0.8rem);
     }
 }
 
