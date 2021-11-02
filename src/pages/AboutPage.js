@@ -1,9 +1,13 @@
+import Languages from '../components/Languages';
+
 export default function AboutPage() {
 
     return (
         <>
             <h1>About</h1>
 
+            <Languages />
+            
             <article className="article">
                 <div>
                     <h2>
@@ -24,6 +28,8 @@ export default function AboutPage() {
                         Development
                     </h2>
                 </div>
+
+                <Languages />
 
                 <div className="text">
                     <p className="text-paragraph">
