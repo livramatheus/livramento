@@ -33,12 +33,12 @@ export default function Timeline() {
                 dateClassName="date-timeline"
             >
                 <h3>Instructor/Programmer</h3>
-                <h4>IPM Sistemas, Rio do Sul, SC</h4>
-                <p>
+                <span className="desc-itm">IPM Sistemas, Rio do Sul, SC</span>
+                <p className="desc-timeline">
                     In charge of training/tutoring newly hired programmers by lecturing
                     Web Development classes.
                 </p>
-                <p>HTML | CSS | JavaScript | PHP | PostgreSQL | PHP Framework</p>
+                <p className="desc-timeline">HTML | CSS | JavaScript | PHP | PostgreSQL | PHP Framework</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}
@@ -49,12 +49,12 @@ export default function Timeline() {
                 dateClassName="date-timeline"
             >
                 <h3>HR business rule instructor</h3>
-                <h4>IPM Sistemas, Rio do Sul, SC</h4>
-                <p>
+                <span className="desc-itm">IPM Sistemas, Rio do Sul, SC</span>
+                <p className="desc-timeline">
                     In charge of training/tutoring employees that were hired to work with
                     the Human Resources software.
                 </p>
-                <p>Public administration software | Human Resources</p>
+                <p className="desc-timeline">Public administration software | Human Resources</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}
@@ -65,12 +65,12 @@ export default function Timeline() {
                 dateClassName="date-timeline"
             >
                 <h3>Bachelor degree in Computer Science</h3>
-                <h4>Instituto Federal Catarinense, Rio do Sul, SC</h4>
-                <p>
+                <span className="desc-itm">Instituto Federal Catarinense, Rio do Sul, SC</span>
+                <p className="desc-timeline">
                     Graduated in computer science, reaching maximum grade in the final
                     thesis, which portrayed about Artificial Intelligence.
                 </p>
-                <p>Check my final thesis here (portuguese only)! </p>
+                <p className="desc-timeline">Check my final thesis here (portuguese only)! </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}
@@ -81,12 +81,12 @@ export default function Timeline() {
                 dateClassName="date-timeline"
             >
                 <h3>Software Quality Analyst</h3>
-                <h4>IPM Sistemas, Rio do Sul, SC</h4>
-                <p>
+                <span className="desc-itm">IPM Sistemas, Rio do Sul, SC</span>
+                <p className="desc-timeline">
                     In charge of testing the Human Resources software to detect and
                     catalog errors. Also in charge of writing and executing test cases.
                 </p>
-                <p>Software Quality | Human Resources</p>
+                <p className="desc-timeline">Software Quality | Human Resources</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}
@@ -97,8 +97,8 @@ export default function Timeline() {
                 dateClassName="date-timeline"
             >
                 <h3>Office Assistant</h3>
-                <h4>Rio do Sul, SC</h4>
-                <p>
+                <span className="desc-itm">Rio do Sul, SC</span>
+                <p className="desc-timeline">
                     In charge of managing the e-commerce platform and leading marketing
                     campaigns on social media.
                 </p>
@@ -112,8 +112,8 @@ export default function Timeline() {
                 dateClassName="date-timeline"
             >
                 <h3>Part time intern</h3>
-                <h4>Town Hall, Rio do Sul, SC</h4>
-                <p>
+                <span className="desc-itm">Town Hall, Rio do Sul, SC</span>
+                <p className="desc-timeline">
                     In charge of assorted office services, like register traffic tickets,
                     catalog towed cars and organize old files.
                 </p>
