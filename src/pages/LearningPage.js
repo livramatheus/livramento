@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as Img } from '../assets/matheus-2.svg'
+import { ReactComponent as Img } from '../assets/images/matheus-2.svg'
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";

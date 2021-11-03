@@ -1,4 +1,4 @@
-import Img from '../../assets/matheus.jpg';
+import Img from '../../assets/images/matheus.jpg';
 
 function AboutIntroImg() {
     return (

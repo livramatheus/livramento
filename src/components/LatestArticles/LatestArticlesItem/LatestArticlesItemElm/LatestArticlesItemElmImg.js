@@ -1,4 +1,4 @@
-import ImgHTML5 from '../../../../assets/tech-icons/html5.svg';
+import ImgHTML5 from '../../../../assets/images/tech-icons/html5.svg';
 
 function ImageArticle() {
     return (

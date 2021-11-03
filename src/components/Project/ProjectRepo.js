@@ -1,4 +1,4 @@
-import ghLogo from '../../assets/github-logo.svg';
+import ghLogo from '../../assets/images/github-logo.svg';
 
 function ProjectRepo(props) {
 

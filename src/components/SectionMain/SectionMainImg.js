@@ -1,4 +1,4 @@
-import { ReactComponent as MatheusCartoon } from "../../assets/matheus_cartoon.svg";
+import { ReactComponent as MatheusCartoon } from "../../assets/images/matheus_cartoon.svg";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
