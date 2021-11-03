@@ -105,12 +105,12 @@ export default function Timeline() {
             <VerticalTimelineElement
                 contentStyle={boxStyle}
                 contentArrowStyle={arrowStyle}
-                date="2011 - 2014"
+                date="2011 ~ 2014"
                 iconStyle={{ background: "var(--blue5)", color: "#fff" }}
                 icon={<FaBuilding />}
                 dateClassName="date-timeline"
             >
-                <h3>Part time intern</h3>
+                <h3>Administrative assistant</h3>
                 <span className="desc-itm">Town Hall, Rio do Sul, SC</span>
                 <p className="desc-timeline">
                     In charge of assorted office services, like register traffic tickets,
