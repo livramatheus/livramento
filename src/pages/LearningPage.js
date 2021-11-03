@@ -26,7 +26,7 @@ function LearningPage() {
                         As I was a PHP guy who always built things from scratch, React and Node.js doesn't cease to impress me on how easy it is to develop big and complex projects by simply dealing with third party components and libraries. 
                     </p>
                     <p>
-                        Continuing my JavaSript journey, I'm looking forward to learn <strong>Next.js</strong>, which excites me a lot on how this technology can help to develop apps that runs in such an elegant and performatic way. As soon as I feel confident with Next.js, my next goal is to jump into React Native: I think that beign able to develop mobile apps is an essential knowledge for a complete programmer.
+                        Continuing my JavaSript journey, I'm looking forward to learn <strong>Next.js</strong>, which excites me a lot on how this technology can help to develop apps that runs in such an elegant and performatic way. As soon as I feel confident with Next.js, my next goal is to jump into React Native: I think that being able to develop mobile apps is an essential knowledge for a complete programmer.
                     </p>
                     <p>
                         Lastly, to put a cherry on top of my JavaSript cake, Im looking forward on learning <strong>TypeScript</strong>, which is gaining a lot of popularity recently.

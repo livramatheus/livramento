@@ -8,11 +8,21 @@ export default function AboutPage() {
         <>
             <h1>About</h1>
 
-            <Languages />
-            <Timeline />
-            <Skills />
+            <article className="about-page-article">
+                <p>I'm <strong>Matheus do Livramento</strong>, 26 years old, full stack programmer who loves to code and learn new technologies that makes programming cleaner.</p>
 
-            <article className="article">
+                <h2>Technical Skills</h2>
+
+                <p>I jumped into web development more than 12 years ago when I participated in my first Design & Web course. Then, 3 years later I started to learn Java and C++ in college. As time went on, I transitioned to PHP and JavaScript and now I'm specializing on a JavaScript stack, since it excites me a lot on how productive it is.</p>
+                <p>Below you can see more detailed info about my skills:</p>
+                
+                <Skills />
+
+                <h2>Professional Carreer</h2>
+
+                <Languages />
+                <Timeline />
+
                 <div>
                     <h2>
                         Profissional

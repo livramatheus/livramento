@@ -16,6 +16,12 @@ import AboutIntro from '../components/AboutIntro';
 
 export default function Main() {
 
+    if (process.env.REACT_APP_MAINTENANCE == 1) {
+        return (
+            <h1>⚠ Under Maintenance!</h1>
+        )
+    }
+
     return (
         <BrowserRouter>
             <ScrollToTop />

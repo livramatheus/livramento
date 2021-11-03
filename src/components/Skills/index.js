@@ -50,7 +50,6 @@ export default function Skills(props) {
 
     return (
         <article>
-            <h2 data-aos="fade-up" data-aos-once="true">Skills</h2>
             <div className="skill-card-group">
                 {skls.map((e, id) => {
                     return (

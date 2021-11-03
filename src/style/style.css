@@ -247,6 +247,13 @@ article h2 {
     font-weight: 200;
 }
 
+/* About Page */
+.about-page-article {
+    display: flex;
+    flex-direction: column;
+    gap: var(--hugegap);
+}
+
 /* About Intro */
 
 .about-intro {
