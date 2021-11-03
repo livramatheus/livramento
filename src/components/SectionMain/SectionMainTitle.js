@@ -13,7 +13,7 @@ function SectionMainTitle() {
 
     return (
         <h1 id="section-main-title" data-aos={isMobile ? 'fade-up' : 'fade-right'} data-aos-once="true">
-            Matheus do Livramento, Lorem ipsum dolor sit amet, consectetur.
+            Hello! I'm Matheus do Livramento!
         </h1>
     );
 }

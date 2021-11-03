@@ -13,7 +13,7 @@ function SectionMainContent() {
 
     return (
         <p id="section-main-content" data-aos={isMobile ? 'fade-up' : 'fade-right'} data-aos-once="true">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            I welcome you to my website! Here you will get to know more about me, about my work and what are my next steps into web development!
         </p>
     );
 }

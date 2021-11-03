@@ -1,5 +1,11 @@
+import { Link } from "react-router-dom";
+
 function AboutIntroBtn() {
-    return <span className="btn">Download Resume</span>;
+    return (
+        <div>
+            <Link to="/about" className="btn">More about Matheus</Link>
+        </div>
+    );
 }
 
 export default AboutIntroBtn;

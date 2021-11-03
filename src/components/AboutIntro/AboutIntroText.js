@@ -1,7 +1,7 @@
 function AboutIntroText() {
     return (
         <div className="about-intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Consectetur adipiscing elit, sed do eiusmod tempor
+            I'm a full-stack developer that has extensive experience in multiples technologies, like HTML, CSS, JavaScript, PHP, Node.js, Databases and much more!
         </div>
     );
 }
