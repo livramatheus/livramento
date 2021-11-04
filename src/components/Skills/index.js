@@ -14,12 +14,12 @@ export default function Skills(props) {
         {
             title: "HTML5/CSS3",
             experience: "5 years of experience",
-            topics: ["Advanced"]
+            topics: ["Advanced", "Flexbox lover"]
         },
         {
             title: "JavaScript",
             experience: "3 years of experience",
-            topics: ["Intermediate-advanced"]
+            topics: ["Intermediate-advanced", "Familiar with ES6"]
         },
         {
             title: "React",

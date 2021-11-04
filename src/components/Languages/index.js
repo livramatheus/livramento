@@ -31,8 +31,6 @@ export default function Languages() {
 
     return (
         <article className="languages" data-aos="fade-up" data-aos-once="true">
-            <h2>Languages I speak</h2>
-
             {langs.map((itm, id) => {
                 return <LanguageItem {...itm} key={id} />;
             })}
