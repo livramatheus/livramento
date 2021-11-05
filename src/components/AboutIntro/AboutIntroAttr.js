@@ -8,7 +8,7 @@ function AboutIntroAttr() {
                 <div>
                     <FaUserGraduate size="1.9rem"/>
                 </div>
-                <div>Computer Science</div>
+                <div>Computer Science Bachelor</div>
             </div>
             <div className="about-intro-attr-item">
                 <div>
