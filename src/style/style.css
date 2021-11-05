@@ -124,7 +124,6 @@
 .project-description h3 {
     font-weight: 700;
     font-size: 1.12rem;
-    margin-top: 1rem;
 }
 
 
@@ -318,6 +317,15 @@ article h2 {
 
 .about-intro-attr-item div:nth-child(2) {
     color: var(--blue4);
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.about-intro-attr > div {
+    width: 33%;
 }
 
 /* Articles Page */
@@ -412,6 +420,9 @@ article h2 {
 }
 
 /* About */
+.timeline-main {
+    margin-top: var(--hugegap);
+}
 
 .date-timeline {
     padding: 0.8rem 1rem !important;
@@ -440,6 +451,7 @@ article h2 {
     flex-wrap: wrap;
     gap: 0.8rem;
     row-gap: 1rem;
+    margin-top: var(--hugegap);
 }
 
 .skill-card {
@@ -466,6 +478,7 @@ article h2 {
 
 .skill-card h3 {
     text-align: center;   
+    margin: 0;
 }
 
 .popover-style {
@@ -478,6 +491,7 @@ article h2 {
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
+    margin: var(--hugegap) 0;
 }
 
 .lang-name {
@@ -547,6 +561,7 @@ article h2 {
     #section-main {
         flex-direction: column;
         margin: 0;
+        gap: 4rem;
     }
     #section-main>div {
         width: 100%;
@@ -571,6 +586,7 @@ article h2 {
     .about-intro-attr-item {
         justify-content: space-between;
     }
+
     .about-intro-attr-item div:nth-child(1) {
         font-weight: 600;
         font-size: 2rem;
@@ -579,6 +595,11 @@ article h2 {
     .about-intro-attr-item div:nth-child(2) {
         color: var(--blue4);
     }
+    
+    .about-intro-attr-item > div {
+        width: 100%;
+    }
+
     .about-intro-data {
         align-items: center;
         gap: 1.7rem;
@@ -599,6 +620,7 @@ article h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 2rem;
     }
     .learning-intro>svg {
         width: 90%;

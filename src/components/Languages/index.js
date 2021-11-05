@@ -30,10 +30,10 @@ export default function Languages() {
     ];
 
     return (
-        <article className="languages" data-aos="fade-up" data-aos-once="true">
+        <div className="languages" data-aos="fade-up" data-aos-once="true">
             {langs.map((itm, id) => {
                 return <LanguageItem {...itm} key={id} />;
             })}
-        </article>
+        </div>
     );
 }

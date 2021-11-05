@@ -33,12 +33,12 @@ export default function LanguageItem(props) {
             classes={{paper: 'popover-style'}}
             anchorOrigin={{
               vertical: 'top',
-              horizontal: 'left',
-            }}
-            transformOrigin={{
+              horizontal: 'right',
+          }}
+          transformOrigin={{
               vertical: 'top',
               horizontal: 'left',
-            }}
+          }}
           >
             {description.map((e, id) => {
               return <p key={id}>{e}</p>;

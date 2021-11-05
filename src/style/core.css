@@ -50,10 +50,10 @@ article {
     line-height: 1.6rem;
 }
 
-article div {
+article > div {
     display: flex;
     flex-direction: column;
-    gap: var(--hugegap);
+    row-gap: var(--hugegap);
 }
 
 article .link {

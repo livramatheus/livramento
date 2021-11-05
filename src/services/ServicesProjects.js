@@ -16,7 +16,7 @@ const projects = [
         <p><a href="https://codesandbox.io/s/loving-meadow-6r3nu?autoresize=1&fontsize=14&hidenavigation=1&theme=dark">
           <img alt="Edit 6r3nu" src="https://codesandbox.io/static/img/play-codesandbox.svg">
         </a></p>        <h2 id="front-end">Front-end</h2>        <p>The front-end was built with HTML and CSS only, you can check below how the project look like:</p>
-        <h3 id="layout">Layout</h3>        <div style="display: flex">
+        <h3 id="layout">Layout</h3>        <div class="img-row desktop">
             <img alt="Desktop 1" title="Astronaut" src="/4/home.png" />
         </div>        <h3 id="technologies-front">Technologies</h3>        <p>The following techlogies were used to build Astronaut SVG Animation:</p>
         <ul>

@@ -23,7 +23,7 @@ export default function Timeline() {
     };
 
     return (
-        <VerticalTimeline>
+        <VerticalTimeline className="timeline-main">
             <VerticalTimelineElement
                 contentStyle={boxStyle}
                 contentArrowStyle={arrowStyle}

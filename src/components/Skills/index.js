@@ -49,25 +49,23 @@ export default function Skills(props) {
     ];
 
     return (
-        <article>
-            <div className="skill-card-group">
-                {skls.map((e, id) => {
-                    return (
-                        <div className="skill-card" data-aos="fade-up" data-aos-once="true">
-                            <div className="skill-card-header">
-                                <h3>{e.title}</h3>
-                                <span className="desc-itm">{e.experience}</span>
-                            </div>
-
-                            <div className="skill-card-items">
-                                {e.topics.map((e, idt) => {
-                                    return <span key={idt}>{e}</span>;
-                                })}
-                            </div>
+        <div className="skill-card-group">
+            {skls.map((e, id) => {
+                return (
+                    <div className="skill-card" data-aos="fade-up" data-aos-once="true">
+                        <div className="skill-card-header">
+                            <h3>{e.title}</h3>
+                            <span className="desc-itm">{e.experience}</span>
                         </div>
-                    );
-                })}
-            </div>
-        </article>
+
+                        <div className="skill-card-items">
+                            {e.topics.map((e, idt) => {
+                                return <span key={idt}>{e}</span>;
+                            })}
+                        </div>
+                    </div>
+                );
+            })}
+        </div>
     );
 }
