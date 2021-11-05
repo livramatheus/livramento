@@ -1,4 +1,4 @@
-import { FaUserGraduate } from 'react-icons/fa';
+import { FaUserGraduate, FaCode, FaLaptopCode } from 'react-icons/fa';
 
 function AboutIntroAttr() {
 
@@ -11,12 +11,16 @@ function AboutIntroAttr() {
                 <div>Computer Science</div>
             </div>
             <div className="about-intro-attr-item">
-                <div>4+</div>
-                <div>Years of experience</div>
+                <div>
+                    <FaCode size="1.9rem"/>
+                </div>
+                <div>4+ Years of experience</div>
             </div>
             <div className="about-intro-attr-item">
-                <div>8+</div>
-                <div>Web Technologies</div>
+                <div>
+                    <FaLaptopCode size="1.9rem"/>
+                </div>
+                <div>8+ Web Technologies</div>
             </div>
         </div>
     );

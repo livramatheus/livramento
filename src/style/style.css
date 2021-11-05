@@ -298,10 +298,19 @@ article h2 {
     justify-content: space-between;
 }
 
+.about-intro-btn {
+    display: flex;
+    justify-content: center;
+}
+
 .about-intro-data {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.about-intro-text {
+    text-align: center;
 }
 
 .about-intro-attr-item {
@@ -629,6 +638,7 @@ article h2 {
     .about-intro-body {
         flex-direction: column;
     }
+    
     .about-intro-body>div {
         width: 100%;
     }

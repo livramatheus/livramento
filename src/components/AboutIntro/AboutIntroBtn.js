@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function AboutIntroBtn() {
     return (
-        <div>
+        <div className="about-intro-btn">
             <Link to="/about" className="btn">More about Matheus</Link>
         </div>
     );
