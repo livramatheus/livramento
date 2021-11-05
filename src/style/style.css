@@ -569,6 +569,18 @@ article h2 {
     .skill-card {
         width: calc(100% - 0.8rem);
     }
+    .contact {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: var(--maxgap);
+    }
+    .contact-img {
+        width: 80%;
+    }
+    .contact-group {
+        width: 100%;
+        gap: var(--hugegap);
+    }
 }
 
 @media only screen and (max-width: 600px) {
