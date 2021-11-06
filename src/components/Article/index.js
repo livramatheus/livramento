@@ -22,6 +22,13 @@ export default function Article() {
     return (
         articleData ? (
             <article>
+                <Helmet>
+                    <title>{articleData.title} - Livramento.dev</title>
+                    <meta name="description" content={`${articleData.title} - Matheus do Livramento`} />
+                    <meta name="keywords" content="Matheus, Livramento, portfolio, web, developer, full, stack" />
+                    <meta name="author" content="Matheus do Livramento" />
+                </Helmet>
+
                 <ArticleTitle title={articleData.title} date={articleData.date}/>
                 
                 <ArticleAbstract abstract={articleData.abstract} />

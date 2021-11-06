@@ -3,6 +3,7 @@ import Skills from '../components/Skills';
 import Timeline from '../components/Timeline';
 import { useState } from 'react';
 import { Popover } from '@material-ui/core';
+import { Helmet } from 'react-helmet';
 
 export default function AboutPage() {
 
@@ -21,6 +22,12 @@ export default function AboutPage() {
 
     return (
         <>
+            <Helmet>
+                <title>About - Livramento.dev</title>
+                <meta name="description" content="About - Matheus do Livramento" />
+                <meta name="keywords" content="Matheus, Livramento, portfolio, web, developer, full, stack" />
+                <meta name="author" content="Matheus do Livramento" />
+            </Helmet>
             <article>
                 <h1>About</h1>
 

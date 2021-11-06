@@ -6,6 +6,7 @@ import ProjectsText from './ProjectsText';
 import { getProjects } from "../../services/ServicesProjects";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { Helmet } from 'react-helmet';
 
 export default function Projects(props) {
 
@@ -25,6 +26,13 @@ export default function Projects(props) {
 
     return (
         <>
+            <Helmet>
+                <title>Portfolio - Livramento.dev</title>
+                <meta name="description" content="Portfolio - Matheus do Livramento" />
+                <meta name="keywords" content="Matheus, Livramento, portfolio, web, developer, full, stack" />
+                <meta name="author" content="Matheus do Livramento" />
+            </Helmet>
+            
             <h1>Portfolio</h1>
             {
                 projItem && projItem.map((e) => {

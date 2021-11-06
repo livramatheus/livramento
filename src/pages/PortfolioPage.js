@@ -6,14 +6,14 @@ import Projects from "../components/Projects";
 export default function PortfolioPage() {
 
     const { path } = useRouteMatch();
-    
+
     return (
         <>
             <Switch>
                 <Route exact path={`${path}`}>
                     <Projects />
                 </Route>
-                
+
                 <Route path={`${path}/:projId`}>
                     <Project />
                 </Route>

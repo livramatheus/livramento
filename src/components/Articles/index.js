@@ -28,6 +28,12 @@ export default function Articles(props) {
                         artItem.map((e) => {
                             return (
                                 <>
+                                    <Helmet>
+                                        <title>Articles - Livramento.dev</title>
+                                        <meta name="description" content="Articles - Matheus do Livramento" />
+                                        <meta name="keywords" content="Matheus, Livramento, portfolio, web, developer, full, stack" />
+                                        <meta name="author" content="Matheus do Livramento" />
+                                    </Helmet>
                                     <ArticlesHeader id={e.id} title={e.title} date={e.date} url={url} />
                                     <ArticlesText abstract={e.abstract} />
                                     <ArticlesLink id={e.id} url={url} />
