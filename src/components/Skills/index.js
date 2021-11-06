@@ -52,7 +52,7 @@ export default function Skills(props) {
         <div className="skill-card-group">
             {skls.map((e, id) => {
                 return (
-                    <div className="skill-card" data-aos="fade-up" data-aos-once="true">
+                    <div className="skill-card" data-aos="fade-up" data-aos-once="true" key={id}>
                         <div className="skill-card-header">
                             <h3>{e.title}</h3>
                             <span className="desc-itm">{e.experience}</span>

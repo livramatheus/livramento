@@ -253,6 +253,14 @@ article h2 {
     gap: var(--hugegap);
 }
 
+.btn-download-resume {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
 /* About Intro */
 
 .about-intro {

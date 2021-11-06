@@ -35,9 +35,9 @@ export default function Projects(props) {
             
             <h1>Portfolio</h1>
             {
-                projItem && projItem.map((e) => {
+                projItem && projItem.map((e, id) => {
                     return (
-                        <article className="project-preview" data-aos="fade-up" data-aos-once="true">
+                        <article className="project-preview" data-aos="fade-up" data-aos-once="true" key={id}>
                             <ProjectsHeader title={e.title} />
                             <ProjectsText abstract={e.abstract} />
                             <ProjectsTechs technologies={e.technologies} />

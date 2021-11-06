@@ -4,6 +4,7 @@ import Timeline from '../components/Timeline';
 import { useState } from 'react';
 import { Popover } from '@material-ui/core';
 import { Helmet } from 'react-helmet';
+import { FaDownload } from "react-icons/fa";
 
 export default function AboutPage() {
 
@@ -29,7 +30,7 @@ export default function AboutPage() {
                 <meta name="author" content="Matheus do Livramento" />
             </Helmet>
             <article>
-                <h1>About</h1>
+                <h1 className="header-article-title" >About</h1>
 
                 <div className="project-description">
                     <p>I'm <strong>Matheus do Livramento</strong>, 26 years old, living in Santa Catarina, Brazil since I was born.</p>
@@ -60,7 +61,10 @@ export default function AboutPage() {
                         </div>
                     </Popover>
 
-                    <a className="btn" onClick={handleClick} aria-describedby={id} style={{ margin: 'var(--hugegap) auto' }}>Download Resume</a>
+                    <span className="btn btn-download-resume" onClick={handleClick} aria-describedby={id} style={{ margin: 'var(--hugegap) auto' }}>
+                        <FaDownload />
+                        <span>Download Resume</span>
+                    </span>
 
                     <h2>Technical Skills</h2>
 

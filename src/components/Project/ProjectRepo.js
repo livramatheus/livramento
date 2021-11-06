@@ -6,7 +6,7 @@ function ProjectRepo(props) {
 
     return (
         <a href={gitaddr} className="gh-btn">
-            <img src={ghLogo} /> View on GitHub
+            <img src={ghLogo} alt="GitHub Repository" /> View on GitHub
         </a>
     );
 }
