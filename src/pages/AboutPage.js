@@ -54,10 +54,10 @@ export default function AboutPage() {
                         }}
                     >
                         <div>
-                            <a>Portuguese</a>
+                            <a className="link" href="https://drive.google.com/file/d/12bEHx_lNWTDdKxA6e-bcbutT0v8zdHgD/view?usp=sharing" target="_blank" rel="noreferrer">Portuguese</a>
                         </div>
                         <div>
-                            <a>English</a>
+                            <a className="link" href="https://drive.google.com/file/d/1rAD_frv-R0rdaRTOZfTMVtixZKvjQvV7/view?usp=sharing" target="_blank" rel="noreferrer">English</a>
                         </div>
                     </Popover>
 
