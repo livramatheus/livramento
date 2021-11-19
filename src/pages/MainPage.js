@@ -27,7 +27,6 @@ export default function Main() {
             <ScrollToTop />
             <NavBar />
 
-
             <Switch>
                 <Route exact path="/">
                     <SectionMain />
