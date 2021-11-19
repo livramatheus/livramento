@@ -34,9 +34,9 @@ export default function AboutPage() {
 
                 <div className="project-description">
                     <p>I'm <strong>Matheus do Livramento</strong>, 26 years old, living in Santa Catarina, Brazil since I was born.</p>
-                    <p>Since I was a kid, technology has always caught my attention. Today, as a professional I can securely affirm that working with and developing technology is the right place for me.</p>
-                    <p>I'm a <strong>full stack programmer</strong> and web development teacher with a <strong>bachelor degree in computer science</strong> who loves to code and learn new technologies that makes programming cleaner.</p>
-                    <p>Below you can see an overview about my skills and professional life, however, you can also download my resume:</p>
+                    <p>Since I was a kid technology has always caught my attention. Today, as a professional, I can safely affirm that working with and developing technology was the correct choice.</p>
+                    <p>I'm a <strong>full stack developer</strong> and web development teacher with a <strong>bachelor degree in computer science</strong> who loves to code and learn new technologies that makes programming cleaner.</p>
+                    <p>Below you can see an overview about my skills and professional life. You can also download my resume below:</p>
 
                     <Popover
                         id={id}
@@ -68,7 +68,7 @@ export default function AboutPage() {
 
                     <h2>Technical Skills</h2>
 
-                    <p>I jumped into web development more than 12 years ago when I participated in my first Design & Web course. Three years later I started to learn Java and C++ in college. As time went on, I transitioned to PHP and JavaScript and now I'm specializing on a JavaScript stack, since it excites me a lot on how productive it is.</p>
+                    <p>I jumped into web development more than 12 years ago when I participated in my first Design & Web course. Three years later I started to learn Java and C++ in college. As time went on, I transitioned to PHP, and now I'm specializing on a JavaScript stack, since it excites me a lot on how productive it is.</p>
                     <p>Below you can see more detailed info about my skills:</p>
 
                     <Skills />
