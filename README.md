@@ -1,70 +1,211 @@
-# Getting Started with Create React App
+<h1 align="center">Livramento's Portfolio</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<ul>
+    <li><a href="#english-documentation">English documentation</a></li>
+    <li><a href="#documentação-em-português">Documentação em português</a></li>
+</ul>
 
-## Available Scripts
+<hr>
+<p>
+<h1 id="english-documentation">English Documentation</h1>
+</p>
+<h2>📜 Table of content</h2>
 
-In the project directory, you can run:
+<!--ts-->
+<ul>
+    <li><a href="#about-the-project">About the project</a></li>
+    <li><a href="#live-demo">Live demo</a></li>
+    <li><a href="#front-end">Front-end</a></li>
+    <ul>
+        <li><a href="#layout">Layout</a></li>
+        <li><a href="#technologies-front">Technologies</a></li>
+    </ul>
+    <li><a href="#inspirations">Inspirations</a></li>
+    <li><a href="#author">Author</a></li>
+</ul>
+<!--te-->
 
-### `yarn start`
+<h2 id="about-the-project">💻 About the project</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>
+    This is my personal portfolio, built from scratch using React. One of my main goals, other than presenting my own work is deliver a solid product, being fast with no loading times.
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p>
+    My next goal with this project is applying <b>Next.js</b>, which will make adding more content easy, preserving the low loading times. 
+</p>
 
-### `yarn test`
+<h2 id="live-demo">🌐 Live demo</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Check out this project running on <a href="https://www.livramento.dev/">Netlify</a></p>
 
-### `yarn build`
+<h2 id="front-end">Front-end</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>The client side of Livramento.dev is fully responsive. Check its layout below:</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3 id="layout">📐 Layout</h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4>Mobile</h4>
+<div style="display: flex">
+    <img alt="Mobile 1" title="Mobilie 1"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_m.PNG" height="280" />
+    <img alt="Mobile 2" title="Mobilie 2"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_m.PNG" height="280" />
+    <img alt="Mobile 3" title="Mobilie 3"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_m.PNG" height="280" />
+    <img alt="Mobile 4" title="Mobilie 4"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_m.PNG" height="280" />
+    <img alt="Mobile 5" title="Mobilie 5"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_m.PNG" height="280" />
+    <img alt="Mobile 6" title="Mobilie 6"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_m.PNG" height="280" />
+</div>
 
-### `yarn eject`
+<h4>Desktop</h4>
+<div style="display: flex">
+    <img alt="Desktop 1" title="Mobilie 1"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.PNG" height="280" />
+    <img alt="Desktop 2" title="Mobilie 2"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.PNG" height="280" />
+    <img alt="Desktop 3" title="Mobilie 3"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.PNG" height="280" />
+    <img alt="Desktop 4" title="Mobilie 4"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.PNG" height="280" />
+    <img alt="Desktop 5" title="Mobilie 5"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.PNG" height="280" />
+    <img alt="Desktop 6" title="Mobilie 6"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.PNG" height="280" />
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h3 id="technologies-front">🔨 Technologies</h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>The following technologies were used to build the application's front-end:</p>
+<ul>
+    <li><a href="https://www.npmjs.com/package/aos">AOS</a></li>
+    <li><a href="https://www.npmjs.com/package/date-fns">Date-fns</a></li>
+    <li><a href="https://www.npmjs.com/package/dompurify">Dompurify</a></li>
+    <li><a href="https://mui.com/">Material UI</a></li>
+    <li><a href="https://www.npmjs.com/package/rc-progress">RC Progress</a></li>
+    <li><a href="https://www.npmjs.com/package/react-device-detect">React Device Detect</a></li>
+    <li><a href="https://www.npmjs.com/package/react-helmet">React Helmet</a></li>
+    <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
+    <li><a href="https://www.npmjs.com/package/react-router-dom">React Router DOM</a></li>
+    <li><a href="https://www.npmjs.com/package/react-vertical-timeline-component">React Vertical Timeline Component</a></li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3 id="inspirations">😁 Inspirations</h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p>This portfolio was inspired by the following projects:</p>
+<ul>
+    <li><a href="https://www.figma.com/community/file/824810955262478067">Ryan Warner Codes, by Ryan Warner</a></li>
+    <li><a href="https://youtu.be/27JtRAI3QO8">Personal Portfolio Website, by Bedimcode</a></li>
+</ul>
 
-## Learn More
+<h3 id="author">👩‍🦲 Author</h3>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p><a href="https://github.com/livramatheus">GitHub</a> | <a
+        href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a
+        href="https://www.livramento.dev/">Website</a></p>
 
-### Code Splitting
+<hr />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h1 id="documentação-em-português">Documentação em português</h1>
+<h2>📜 Tabela de conteúdo</h2>
 
-### Analyzing the Bundle Size
+<ul>
+    <li><a href="#about-the-project-br">Sobre o projeto</a></li>
+    <li><a href="#live-demo-br">Live demo</a></li>
+    <li><a href="#front-end-br">Front-end</a></li>
+    <ul>
+        <li><a href="#layout-br">Layout</a></li>
+        <li><a href="#technologies-front-br">Tecnologias</a></li>
+    </ul>
+    <li><a href="#inspirations-br">Inspirações</a></li>
+    <li><a href="#autor-br">Autor</a></li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h2 id="about-the-project-br">💻 Sobre o projeto</h2>
 
-### Making a Progressive Web App
+<p>
+    Este é o meu portfólio pessoal, criado do zero com o React. Um dos meus principais objetivos, além de apresentar o meu próprio trabalho, é entregar um produto sólido, sendo rápido e sem tempos de carregamento.
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p>
+    Meu próximo objetivo com este projeto é aplicar <b> Next.js </b>, o que tornará mais fácil adicionar mais conteúdo, preservando o baixo tempo de carregamento.
+</p>
 
-### Advanced Configuration
+<h2 id="live-demo-br">🌐 Live demo</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p>Veja este projeto rodando no <a href="https://www.livramento.dev/">Netlify</a></p>
 
-### Deployment
+<h2 id="front-end-br">Front-end</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p>O lado do cliente de <strong>Livramento.dev</strong> é totalmente responsivo. Veja a seguir seu layout:
+</p>
 
-### `yarn build` fails to minify
+<h3 id="layout-br">📐 Layout</h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h4>Mobile</h4>
+<div style="display: flex">
+    <img alt="Mobile 1" title="Mobilie 1"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_m.PNG" height="280" />
+    <img alt="Mobile 2" title="Mobilie 2"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_m.PNG" height="280" />
+    <img alt="Mobile 3" title="Mobilie 3"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_m.PNG" height="280" />
+    <img alt="Mobile 4" title="Mobilie 4"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_m.PNG" height="280" />
+    <img alt="Mobile 5" title="Mobilie 5"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_m.PNG" height="280" />
+    <img alt="Mobile 6" title="Mobilie 6"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_m.PNG" height="280" />
+</div>
+
+<h4>Desktop</h4>
+<div style="display: flex">
+    <img alt="Desktop 1" title="Mobilie 1"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.PNG" height="280" />
+    <img alt="Desktop 2" title="Mobilie 2"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.PNG" height="280" />
+    <img alt="Desktop 3" title="Mobilie 3"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.PNG" height="280" />
+    <img alt="Desktop 4" title="Mobilie 4"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.PNG" height="280" />
+    <img alt="Desktop 5" title="Mobilie 5"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.PNG" height="280" />
+    <img alt="Desktop 6" title="Mobilie 6"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.PNG" height="280" />
+</div>
+
+<h3 id="technologies-front-br">🔨 Tecnologias</h3>
+
+<p>As seguintes tecnologias foram utilizadas para construir o front-end da aplicação:</p>
+<ul>
+    <li><a href="https://www.npmjs.com/package/aos">AOS</a></li>
+    <li><a href="https://www.npmjs.com/package/date-fns">Date-fns</a></li>
+    <li><a href="https://www.npmjs.com/package/dompurify">Dompurify</a></li>
+    <li><a href="https://mui.com/">Material UI</a></li>
+    <li><a href="https://www.npmjs.com/package/rc-progress">RC Progress</a></li>
+    <li><a href="https://www.npmjs.com/package/react-device-detect">React Device Detect</a></li>
+    <li><a href="https://www.npmjs.com/package/react-helmet">React Helmet</a></li>
+    <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
+    <li><a href="https://www.npmjs.com/package/react-router-dom">React Router DOM</a></li>
+    <li><a href="https://www.npmjs.com/package/react-vertical-timeline-component">React Vertical Timeline Component</a></li>
+</ul>
+
+<h3 id="inspirations-br">😁 Inspirações</h3>
+
+<p>Este portfolio foi inspirado pelos seguintes projetos:</p>
+<ul>
+    <li><a href="https://www.figma.com/community/file/824810955262478067">Ryan Warner Codes, by Ryan Warner</a></li>
+    <li><a href="https://youtu.be/27JtRAI3QO8">Personal Portfolio Website, by Bedimcode</a></li>
+</ul>
+
+<h3 id="autor-br">👩‍🦲 Autor</h3>
+
+<p>Full stack desenvolvido por <strong>Matheus do Livramento</strong>.</p>
+<p><a href="https://github.com/livramatheus">GitHub</a> | <a
+        href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a
+        href="https://www.livramento.dev/">Website</a></p>
