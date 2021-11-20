@@ -30,6 +30,74 @@ const projects = [
         <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>`, "technologies": "HTML and CSS.", gitaddr: 'https://github.com/livramatheus/astronaut-svg-animation'
     },
     {
+        "id": 5, "title": "Livramento.dev", "launchdate": "2021-11-06T03:00:00.000Z", "abstract": "This is my personal portfolio, built from scratch using React.", "description": `<h2 id="about-the-project">About the project</h2>
+        <p>
+            This is my personal portfolio, built from scratch using React. One of my main goals, other than presenting my own work is deliver a solid product, being fast with no loading times.
+        </p>
+        <p>
+            My next goal with this project is applying <b>Next.js</b>, which will make adding more content easy, preserving the low loading times. 
+        </p>
+        <h2 id="front-end">Front-end</h2>
+        <p>The client side of Livramento.dev is fully responsive. Check its layout below:</p>
+        <h3 id="layout">Layout</h3>
+        <h4>Mobile</h4>
+        <div class="img-row mobile" >
+            <img alt="Mobile 1" title="Mobilie 1"
+                src="/5/1_m.JPG"  />
+            <img alt="Mobile 2" title="Mobilie 2"
+                src="/5/2_m.JPG"  />
+            <img alt="Mobile 3" title="Mobilie 3"
+                src="/5/3_m.JPG"  />
+            <img alt="Mobile 4" title="Mobilie 4"
+            src="/5/4_m.JPG"  />
+            <img alt="Mobile 5" title="Mobilie 5"
+            src="/5/5_m.JPG"  />
+            <img alt="Mobile 6" title="Mobilie 6"
+            src="/5/6_m.JPG"  />
+        </div>
+    
+        <h4>Desktop</h4>
+        <div class="img-row desktop">
+            <img alt="Desktop 1" title="Desktop 1" src="/5/1_d.jpg"  />
+            <img alt="Desktop 2" title="Desktop 2" src="/5/2_d.jpg"  />
+            <img alt="Desktop 3" title="Desktop 3" src="/5/3_d.jpg"  />
+            <img alt="Desktop 4" title="Desktop 4" src="/5/4_d.jpg"  />
+            <img alt="Desktop 5" title="Desktop 5" src="/5/5_d.jpg"  />
+            <img alt="Desktop 6" title="Desktop 6" src="/5/6_d.jpg"  />
+        </div>
+    
+        <h3 id="technologies-front">Technologies</h3>
+    
+        <p>The following technologies were used to build the application's front-end:</p>
+        <ul>
+            <li><a href="https://www.npmjs.com/package/aos">AOS</a></li>
+            <li><a href="https://www.npmjs.com/package/date-fns">Date-fns</a></li>
+            <li><a href="https://www.npmjs.com/package/dompurify">Dompurify</a></li>
+            <li><a href="https://mui.com/">Material UI</a></li>
+            <li><a href="https://www.npmjs.com/package/rc-progress">RC Progress</a></li>
+            <li><a href="https://www.npmjs.com/package/react-device-detect">React Device Detect</a></li>
+            <li><a href="https://www.npmjs.com/package/react-helmet">React Helmet</a></li>
+            <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
+            <li><a href="https://www.npmjs.com/package/react-router-dom">React Router DOM</a></li>
+            <li><a href="https://www.npmjs.com/package/react-vertical-timeline-component">React Vertical Timeline Component</a></li>
+        </ul>
+    
+        <h3 id="inspirations">Inspirations</h3>
+    
+        <p>This portfolio was inspired by the following projects:</p>
+        <ul>
+            <li><a href="https://www.figma.com/community/file/824810955262478067">Ryan Warner Codes, by Ryan Warner</a></li>
+            <li><a href="https://youtu.be/27JtRAI3QO8">Personal Portfolio Website, by Bedimcode</a></li>
+        </ul>
+    
+        <h3 id="author">Author</h3>
+    
+        <p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
+    
+        <p><a href="https://github.com/livramatheus">GitHub</a> | <a
+                href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>`, "technologies": "React, HTML, CSS and JavaScript", gitaddr: 'https://github.com/livramatheus/livramento'
+    },
+    {
         "id": 6, "title": "Express-like PHP router", "launchdate": "2021-11-08T00:00:00.000Z", "abstract": "This was an attempt to mimic Express router in PHP. The final product offers a router that accepts GET and POST requests.", "description": `
         <h2 id="about-the-project">About the project</h2>
         <p>This was an attempt to mimic Express router in PHP. The outcome went pretty well, resembling a lot the "Original" Express.</p>
