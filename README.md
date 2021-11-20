@@ -48,33 +48,33 @@
 <h4>Mobile</h4>
 <div style="display: flex">
     <img alt="Mobile 1" title="Mobilie 1"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_m.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_m.JPG" height="280" />
     <img alt="Mobile 2" title="Mobilie 2"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_m.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_m.JPG" height="280" />
     <img alt="Mobile 3" title="Mobilie 3"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_m.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_m.JPG" height="280" />
     <img alt="Mobile 4" title="Mobilie 4"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_m.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_m.JPG" height="280" />
     <img alt="Mobile 5" title="Mobilie 5"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_m.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_m.JPG" height="280" />
     <img alt="Mobile 6" title="Mobilie 6"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_m.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_m.JPG" height="280" />
 </div>
 
 <h4>Desktop</h4>
 <div style="display: flex">
     <img alt="Desktop 1" title="Mobilie 1"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.JPG" height="280" />
     <img alt="Desktop 2" title="Mobilie 2"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.JPG" height="280" />
     <img alt="Desktop 3" title="Mobilie 3"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.JPG" height="280" />
     <img alt="Desktop 4" title="Mobilie 4"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.JPG" height="280" />
     <img alt="Desktop 5" title="Mobilie 5"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.JPG" height="280" />
     <img alt="Desktop 6" title="Mobilie 6"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.JPG" height="280" />
 </div>
 
 <h3 id="technologies-front">🔨 Technologies</h3>
@@ -150,33 +150,33 @@
 <h4>Mobile</h4>
 <div style="display: flex">
     <img alt="Mobile 1" title="Mobilie 1"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_m.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_m.JPG" height="280" />
     <img alt="Mobile 2" title="Mobilie 2"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_m.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_m.JPG" height="280" />
     <img alt="Mobile 3" title="Mobilie 3"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_m.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_m.JPG" height="280" />
     <img alt="Mobile 4" title="Mobilie 4"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_m.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_m.JPG" height="280" />
     <img alt="Mobile 5" title="Mobilie 5"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_m.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_m.JPG" height="280" />
     <img alt="Mobile 6" title="Mobilie 6"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_m.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_m.JPG" height="280" />
 </div>
 
 <h4>Desktop</h4>
 <div style="display: flex">
     <img alt="Desktop 1" title="Mobilie 1"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.JPG" height="280" />
     <img alt="Desktop 2" title="Mobilie 2"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.JPG" height="280" />
     <img alt="Desktop 3" title="Mobilie 3"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.PNG" height="280" />
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.JPG" height="280" />
     <img alt="Desktop 4" title="Mobilie 4"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.JPG" height="280" />
     <img alt="Desktop 5" title="Mobilie 5"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.JPG" height="280" />
     <img alt="Desktop 6" title="Mobilie 6"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.PNG" height="280" />
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.JPG" height="280" />
 </div>
 
 <h3 id="technologies-front-br">🔨 Tecnologias</h3>
