@@ -28,6 +28,60 @@ const projects = [
         <li><a href="https://www.figma.com/community/file/1015219633030143857">404 Illustration Card With Cool Caption, by Abell Vo</a></li>
         </ul>        <h3 id="author">Author</h3>        <p>Developed by <strong>Matheus do Livramento</strong>.</p>
         <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>`, "technologies": "HTML and CSS.", gitaddr: 'https://github.com/livramatheus/astronaut-svg-animation'
+    },
+    {
+        "id": 6, "title": "Express-like PHP router", "launchdate": "2021-11-08T00:00:00.000Z", "abstract": "This was an attempt to mimic Express router in PHP. The final product offers a router that accepts GET and POST requests.", "description": `
+        <h2 id="about-the-project">About the project</h2>
+        <p>This was an attempt to mimic Express router in PHP. The outcome went pretty well, resembling a lot the "Original" Express.</p>
+        <p>The final product offers a router that accepts GET and POST requests.</p>
+        <p>This project is actually kinda small, and wasn't tested a lot, so there is still a lot more room to improve.</p>
+        <p>I'm aware that there is classes for managing requests and responses, but I wanted to build everything from scratch.</p>
+        <h2 id="features">Features</h2>
+        <p>This package offers a simple and standardized way to declare routes, accepting GET and POST parameters.</p>
+        <h2 id="back-end">Back-end</h2>
+        <p>The router is based on two main classes: Router and Response. Router receives and manages routes, Response is used to sent data back to the client.</p>
+        <h3 id="technologies-back">Technologies</h3>
+        <ul>
+            <li><a href="https://getcomposer.org/">Composer, for autoloading classes</a></li>
+        </ul>
+        <h3 id="inspirations">Inspirations</h3>
+        <ul>
+            <li><a href="https://www.npmjs.com/package/express">Express</a></li>
+        </ul>
+        <h3 id="author">Author</h3>
+        <p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
+        <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>`,
+        "technologies": "PHP.",
+        "gitaddr": "https://github.com/livramatheus/express-like-php-router"
+    },
+    {
+        "id": 7, "title": "Java Keywords Challenge", "launchdate": "2021-11-18T00:00:00.000Z", "abstract": "This is a Java Keywords Challenge built with React. This project was done on a tryout that I participated to a tech company.", "description": `<h2 id="about-the-project"> About the project</h2>
+        <p>This is a Java Keywords Challenge built with React. This project was done on a tryout that I participated to a
+            tech company.</p>
+        <h2 id="live-demo">Live demo</h2>
+        <p>Check out this project running on <a href="https://java-keywords-challenge.netlify.app/">Netlify</a></p>
+        <h2 id="front-end">Front-end</h2>
+        <p>The client-side of Java Keywords Challenge was built with React, resulting in the following layout:</p>
+        <h3 id="layout">Layout</h3>
+        <h4>Desktop</h4>
+        <div class="img-row desktop">
+            <img alt="Desktop 1" title="Layout"
+                src="https://github.com/livramatheus/java-keywords-challenge/raw/main/src/assets/1_d.png"/>
+        </div>
+        <h3 id="technologies-front"> Technologies</h3>
+        <p>The following techlogies were used to build Java Keywords Challenge's front-end:</p>
+        <ul>
+            <li><a href="https://www.npmjs.com/package/react-icons">React Icons</a></li>
+            <li><a href="https://www.npmjs.com/package/react-countdown">React Countdown</a></li>
+        </ul>
+        <h3 id="inspirations"> Inspirations</h3>
+        <a href="https://www.sporcle.com/games/robv/java_keywords">Java Keywords Challenge</a>
+        <h3 id="author"> Author</h3>
+        <p>Full stack developed by <strong>Matheus do Livramento</strong></p>
+        <p><a href="https://github.com/livramatheus">GitHub</a> | <a
+                href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>`,
+        "technologies": "React, HTML, CSS and JavaScript.",
+        "gitaddr": "https://github.com/livramatheus/java-keywords-challenge"
     }
 ];
 
