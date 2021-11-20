@@ -63,18 +63,18 @@
 
 <h4>Desktop</h4>
 <div style="display: flex">
-    <img alt="Desktop 1" title="Mobilie 1"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.JPG" height="280" />
-    <img alt="Desktop 2" title="Mobilie 2"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.JPG" height="280" />
-    <img alt="Desktop 3" title="Mobilie 3"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.JPG" height="280" />
-    <img alt="Desktop 4" title="Mobilie 4"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.JPG" height="280" />
-    <img alt="Desktop 5" title="Mobilie 5"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.JPG" height="280" />
-    <img alt="Desktop 6" title="Mobilie 6"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.JPG" height="280" />
+    <img alt="Desktop 1" title="Desktop 1"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.jpg" height="280" />
+    <img alt="Desktop 2" title="Desktop 2"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.jpg" height="280" />
+    <img alt="Desktop 3" title="Desktop 3"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.jpg" height="280" />
+    <img alt="Desktop 4" title="Desktop 4"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.jpg" height="280" />
+    <img alt="Desktop 5" title="Desktop 5"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.jpg" height="280" />
+    <img alt="Desktop 6" title="Desktop 6"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.jpg" height="280" />
 </div>
 
 <h3 id="technologies-front">🔨 Technologies</h3>
@@ -165,18 +165,18 @@
 
 <h4>Desktop</h4>
 <div style="display: flex">
-    <img alt="Desktop 1" title="Mobilie 1"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.JPG" height="280" />
-    <img alt="Desktop 2" title="Mobilie 2"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.JPG" height="280" />
-    <img alt="Desktop 3" title="Mobilie 3"
-        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.JPG" height="280" />
-    <img alt="Desktop 4" title="Mobilie 4"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.JPG" height="280" />
-    <img alt="Desktop 5" title="Mobilie 5"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.JPG" height="280" />
-    <img alt="Desktop 6" title="Mobilie 6"
-      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.JPG" height="280" />
+    <img alt="Desktop 1" title="Desktop 1"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/1_d.jpg" height="280" />
+    <img alt="Desktop 2" title="Desktop 2"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/2_d.jpg" height="280" />
+    <img alt="Desktop 3" title="Desktop 3"
+        src="https://github.com/livramatheus/livramento/blob/main/public/5/3_d.jpg" height="280" />
+    <img alt="Desktop 4" title="Desktop 4"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/4_d.jpg" height="280" />
+    <img alt="Desktop 5" title="Desktop 5"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/5_d.jpg" height="280" />
+    <img alt="Desktop 6" title="Desktop 6"
+      src="https://github.com/livramatheus/livramento/blob/main/public/5/6_d.jpg" height="280" />
 </div>
 
 <h3 id="technologies-front-br">🔨 Tecnologias</h3>
