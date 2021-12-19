@@ -13,38 +13,38 @@ export default function Skills(props) {
     const skls = [
         {
             title: "HTML5/CSS3",
-            experience: "5 years of experience",
-            topics: ["Advanced", "Flexbox lover"]
+            experience: "Advanced",
+            topics: ["Flexbox lover"]
         },
         {
             title: "JavaScript",
-            experience: "3 years of experience",
-            topics: ["Intermediate-advanced", "Familiar with ES6"]
+            experience: "Intermediate-advanced",
+            topics: ["Familiar with ES6"]
         },
         {
             title: "React",
-            experience: "1 year of experience",
-            topics: ["Intermediate", "Developed various projects", "Functional programming"]
+            experience: "Intermediate",
+            topics: ["Developed various projects", "Functional programming"]
         },
         {
             title: "PHP",
-            experience: "3 years of experience",
-            topics: ["Advanced", "OOP", "MVC architecture"]
+            experience: "Advanced",
+            topics: ["OOP", "MVC architecture"]
         },
         {
             title: "Node.js",
-            experience: "1 year of experience",
-            topics: ["Intermediate", "MVC architecture"]
+            experience: "Intermediate",
+            topics: ["MVC architecture"]
         },
         {
             title: "Database",
-            experience: "3 years of experience",
-            topics: ["Intermediate", "MySQL", "PostgreSQL"]
+            experience: "Intermediate",
+            topics: ["MySQL", "PostgreSQL"]
         },
         {
             title: "Others",
             experience: "",
-            topics: ["Basic Git Workflow", "jQuery", "BIRT", "Production Deploys", "NetBeans IDE", "VS Code"]
+            topics: ["Basic Git Workflow", "jQuery", "BIRT", "PHPUnit", "Production Deploys", "NetBeans IDE", "VS Code"]
         }
     ];
 
