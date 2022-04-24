@@ -79,13 +79,13 @@ export default function Timeline() {
                 icon={<FaRegListAlt />}
                 dateClassName="date-timeline"
             >
-                <h3>Software Quality Analyst</h3>
+                <h3>Software Quality Assurance</h3>
                 <span className="desc-itm">IPM Sistemas, Rio do Sul, SC</span>
                 <p className="desc-timeline">
                     In charge of testing the Human Resources software to detect and
                     catalog errors. Also in charge of writing and executing test cases.
                 </p>
-                <p className="desc-timeline">Software Quality | Human Resources</p>
+                <p className="desc-timeline">Quality Assurance | Human Resources Software</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}
