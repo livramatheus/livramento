@@ -84,11 +84,7 @@ export default function AboutPage() {
 
                     <p>Portuguese is my main language, however, as I grew up as a “tech/gamer kid”, English was part of my daily life, and learning it just came naturally.</p>
 
-                    <blockquote>
-                        <em>
-                            “I recall that back when I was 12, after every daily session of online RPG gaming, I ran straight into my English dictionary and started to search and learn every unknown word that appeared in the game.”
-                        </em>
-                    </blockquote>
+                    <p>Fast forward to January 2022, I got my first job that put my english skills to the test: I had to report the status of what I'm working on regularly to the international team through our Agile-based meetings. On top of that I also had to use english skills to ask questions to senior devs and product specialists.</p>
 
                     <br />
 
