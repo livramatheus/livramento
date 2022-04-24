@@ -57,8 +57,6 @@ function LearningPage() {
                         <div className="learning-checklist-section-list">
                             <ul>
                                 <li>Rewrite livramento.dev in Next.js to improve maintainability (currently built with React)</li>
-                                <li>Rewrite my <Link to="/portfolio/2" className="link">cryptocurrency project</Link> in Next.js to fix SEO and performance issues (currently built with React)</li>
-                                <li>Add more content to my <Link to="/portfolio/2" className="link">cryptocurrency project</Link></li>
                                 <li>Improve my knowledge about advanced CSS selectors</li>
                                 <li>Improve my knowledge in CSS flexbox</li>
                                 <li>Study Node.js authentication</li>
