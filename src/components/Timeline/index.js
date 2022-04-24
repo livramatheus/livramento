@@ -4,6 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaDesktop } from "react-icons/fa";
+import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaRegListAlt } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
@@ -27,12 +28,28 @@ export default function Timeline() {
             <VerticalTimelineElement
                 contentStyle={boxStyle}
                 contentArrowStyle={arrowStyle}
-                date="2018 - Present"
+                date="2022 - Present"
                 iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
                 icon={<FaCode />}
                 dateClassName="date-timeline"
             >
-                <h3>Instructor/Programmer</h3>
+                <h3>Back-end Software Engineer (Remote)</h3>
+                <span className="desc-itm">Symplicity, Arlington, VA - USA</span>
+                <p className="desc-timeline">
+                    In charge of software engineering a product for higher education.
+                    In constant contact with the international team.
+                </p>
+                <p className="desc-timeline">PHP | MySQL | Agile Methodology</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={boxStyle}
+                contentArrowStyle={arrowStyle}
+                date="2018 - 2021"
+                iconStyle={{ background: "var(--blue5)", color: "#fff" }}
+                icon={<FaChalkboardTeacher />}
+                dateClassName="date-timeline"
+            >
+                <h3>Full Stack Development Instructor</h3>
                 <span className="desc-itm">IPM Sistemas, Rio do Sul, SC</span>
                 <p className="desc-timeline">
                     In charge of training/tutoring newly hired programmers by lecturing
