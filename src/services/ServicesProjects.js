@@ -147,6 +147,198 @@ const projects = [
                 href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>`,
         "technologies": "React, HTML, CSS and JavaScript.",
         "gitaddr": "https://github.com/livramatheus/java-keywords-challenge"
+    },
+    {
+        "id": 8, "title": "PlanetGame", "launchdate": "2022-04-24T03:00:00.000Z", "abstract": "PlanetGame is a game database prototype website that indexes information about games, genres and publishers.", "description": `
+        <div style="display: flex; flex-direction: row; gap: 1rem">
+            <a href="https://github.com/livramatheus/planetgame_front" class="gh-btn">
+                <img src="/github-logo.svg" alt="Repository Front-end"> Front-end repo
+            </a>
+            <a href="https://github.com/livramatheus/planetgame_back" class="gh-btn">
+                <img src="/github-logo.svg" alt="Repository Front-end"> Back-end repo
+            </a>
+        </div>
+        
+        <h2 id="about-the-project">About the project</h2>
+
+        <p>
+            The main goal with this project was to release a full-stack application focusing in applying a solid development workflow, consistent code quality, a good organization and also learning new things along the way.
+        </p>
+        
+        <p>
+            In this project I tried for the fist time <b>GitHub Projects</b> with Automated Kanban, and I gotta say that the experience was incredible. Usually my personal projects development process turns out to be really chaotic, and by adopting this tool, the development workflow became way cleaner and faster.
+        </p>
+        
+        <p>
+            Another crucial mechanism that I adopted for the first time on this project was having <b>three separate environments</b>: development, <a href="https://test-planetgame.netlify.app/">test</a> and <a href="https://planetgame.netlify.app/">production</a>. This was easily achivable by pushing code to distinct git branches and turning on auto deploy on Netlify and Heroku.
+        </p>
+        
+        <p>
+            Lastly, this was the first project that I implemented a <b>JWT authentication</b>. I did the token's creation from the ground up via PHP, and, to handle it on the front-end I used a third party package. I gotta admit that the token implementation on the back-end may need some security improvements, but, for now is enough.
+        </p>
+        
+        <p>
+            You can find more detailed info about the project in the next sections.
+        </p>
+        
+        <h2 id="live-demo">Live demo</h2>
+        
+        <p>Check out this project running on <a href="https://planetgame.netlify.app/">Netlify + Heroku</a></p>
+        
+        <h2 id="features">Features</h2>
+        
+        <p>
+            The main functionality of this application is the possibility of users suggesting a game to be listed on the website through a form, without any kind of login or authentication. However, the games sent by users will remain hidden up to the point an admin reviews and approves it.
+        </p>
+        
+        <p>
+            In a more detailed way, the following are the core features of PlanetGame:
+        </p>
+        
+        <ul>
+            <li>Game genres listing</li>
+            <li>Game publishers listing</li>
+            <li>Games listing</li>
+            <li>Publisher details</li>
+            <li>Game details</li>
+            <li>Game suggesting (new game)</li>
+            <li>Admin login</li>
+            <li>Game approval</li>
+            <li>Game denial (delete)</li>
+        </ul>
+        
+        <h2 id="front-end">Front-end</h2>
+        
+        <p>
+            The client-side of <b>PlanetGame</b> was built with React library. The key technical points to be noted throughout development of the front-end was the use of <b>custom hooks</b> and a clean component organization.
+        </p>
+        
+        <p>
+            The main and secondary pages are presented with random banners to maintain a refreshing experience for the user. As this process envolved a few heavy images to be loaded, I <a href="https://developers.google.com/speed/webp">converted those banners from .png to .webp</a> to improve website performance. The results was incredible: I measured the first paint of home page before and after the conversion: the loading time decreased from <b>1.4 seconds to 0.7 seconds</b>.
+        </p>
+        
+        <p>
+            To improve the user experience, in the sections where data is fetched asynchronously  from the back-end, Skeletons from MUI package was used as a placeholder until the data is completely loaded.
+        </p>
+        
+        <p>
+            The UI, being entirely <b>responsive</b> was developed from the ground up using HTML and CSS. Talking about responsiveness, a hamburger menu was also developed from scratch, only using AOS and hamburger-react libraries for its animations. 
+        </p>
+        
+        <h3 id="layout">Layout</h3>
+        
+        <h4>Mobile</h4>
+        
+        <div class="img-row mobile">
+            <img alt="Mobile 1" title="Main Page" src="/8/1_m.webp" height="360"/>
+            <img alt="Mobile 2" title="Hamburger Menu" src="/8/2_m.webp" height="360"/>
+            <img alt="Mobile 3" title="Data Table" src="/8/3_m.webp" height="360"/>
+            <img alt="Mobile 4" title="New Game Form" src="/8/4_m.webp" height="360"/>
+        </div>
+        
+        <h4>Desktop</h4>
+        
+        <div class="img-row desktop">
+            <img alt="Desktop 1" title="Main Page" src="/8/1_d.webp" height="240"/>
+            <img alt="Desktop 2" title="Data table" src="/8/2_d.webp" height="240"/>
+            <img alt="Desktop 3" title="New Game Form" src="/8/3_d.webp" height="240"/>
+            <img alt="Desktop 4" title="Admin Login Form" src="/8/4_d.webp" height="240"/>
+            <img alt="Desktop 5" title="Admin Panel" src="/8/5_d.webp" height="240"/>
+            <img alt="Desktop 6" title="Admin Actions" src="/8/6_d.webp" height="240"/>
+        </div>
+        
+        <h3 id="technologies-front">Technologies</h3>
+        
+        <p>The following techlogies were used to build PlanetGame front-end:</p>
+        <ul>
+            <li><a href="https://www.npmjs.com/package/@mui/material">@mui/material</a></li>
+            <li><a href="https://www.npmjs.com/package/@date-io/date-fns">@date-io/date-fns</a></li>
+            <li><a href="https://www.npmjs.com/package/aos">aos</a></li>
+            <li><a href="https://www.npmjs.com/package/axios">axios</a></li>
+            <li><a href="https://www.npmjs.com/package/disable-scroll">disable-scroll</a></li>
+            <li><a href="https://www.npmjs.com/package/hamburger-react">hamburger-react</a></li>
+            <li><a href="https://www.npmjs.com/package/jwt-decode">jwt-decode</a></li>
+            <li><a href="https://www.npmjs.com/package/react-helmet">react-helmet</a></li>
+            <li><a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a></li>
+        </ul>
+        
+        <h2 id="back-end">Back-end</h2>
+        
+        <p>
+            PlanetGame's back-end was developed with <b>vanilla PHP</b>, behaving as an API: by expecting requests and returning JSON responses.
+        </p>
+        
+        <p>
+            The routing system of this app was developed from scratch, providing a reliable and consistent communication between front and back end.
+            Another interesting feature that was developed from scratch was the <b>error logging system</b> in pair with custom Exception classes.
+        </p>
+        
+        <p>
+            Lastly, an additional noteworthy point is the back-end was consistently backed by <b>unit tests</b>, to maintain a solid code quality throughout the entire development timespan.
+        </p>
+        
+        <h3 id="technologies-back">Technologies</h3>
+        
+        <p>The following techlogies were used to build PlanetGame back-end:</p>
+        <ul>
+            <li><a href="https://packagist.org/packages/mpratt/relativetime">mpratt/relativetime</a> - For converting dates to sentences like "1 year ago"</li>
+            <li><a href="https://packagist.org/packages/mofodojodino/profanity-filter">mofodojodino/profanity-filter</a> - For filtering out bad words from forms</li>
+            <li><a href="https://packagist.org/packages/phpunit/phpunit">phpunit/phpunit</a></li>
+        </ul>
+        
+        <h2 id="database">Database</h2>
+        
+        <p>PlanetGame's database of choice was <a href="https://www.mysql.com">MySql</a>. Check out a brief description of the tables:</p>
+        <ul>
+            <li><strong>tb_admin:</strong> stores admins;</li>
+            <li><strong>tb_game:</strong> store games. It is related to genres and publisher;</li>
+            <li><strong>tb_genre:</strong> store game genres;</li>
+            <li><strong>tb_publisher:</strong> stores game publishers</li>
+        </ul>
+        
+        <h3 id="how-to-set-up">How to set up</h3>
+        
+        <p>If you wish to fork this project you'll need to set up the following environment variables:</p>
+        
+        <h4 id="client-side-">Client-side:</h4>
+        <ul>
+            <li>
+                <strong>REACT_APP_API_URL</strong> (Server URL in order to send requests)
+            </li>
+            <li>
+                <strong>REACT_APP_PUBLIC_URL</strong> (Front-end URL)
+            </li>
+        </ul>
+        
+        <h4 id="server-side-">Server-side:</h4>
+        <ul>
+            <li>
+                <strong>ADMIN_SALT</strong> (Salt for managing admin's passwords)
+            </li>
+            <li>
+                <strong>CLEARDB_DATABASE_URL</strong> (URL for database connection)
+            </li>
+            <li>
+                <strong>CLIENT_URL</strong> (Front-end url for CORS purposes)
+            </li>
+            <li>
+                <strong>JWT_TOKEN_KEY</strong> (JWT secret for managing tokens)
+            </li>
+        </ul>
+        
+        <h3 id="inspirations">Inspirations</h3>
+        
+        <p>PlanetGame was inspired by the following projects on Figma:</p>
+        <ul>
+            <li><a href="https://www.figma.com/community/file/871334426251486294">GWP TeamFight Tactics</a> (inspired PlanetGame color scheme)</li>
+            <li><a href="https://www.figma.com/community/file/814078062940878144">LOL - 404 page for Weekly Warm-Up</a> (inspired PlanetGame UI)</li>
+        </ul>
+        
+        <h3 id="author">Author</h3>
+        
+        <p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
+        
+        <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a href="https://www.livramento.dev/">Website</a></p>`, "technologies": "React, HTML, CSS, JavaScript, PHP, MySQL, GitHub Projects and PHPUnit"
     }
 ];
 
