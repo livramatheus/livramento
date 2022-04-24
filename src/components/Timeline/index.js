@@ -37,9 +37,9 @@ export default function Timeline() {
                 <span className="desc-itm">Symplicity, Arlington, VA - USA</span>
                 <p className="desc-timeline">
                     In charge of software engineering a product for higher education.
-                    In constant contact with the international team.
+                    Constant english-based communication with the international team.
                 </p>
-                <p className="desc-timeline">PHP | MySQL | Agile Methodology</p>
+                <p className="desc-timeline">Agile | PHP | OOP | MySQL | GitLab | Unix/Linux CLI</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 contentStyle={boxStyle}
