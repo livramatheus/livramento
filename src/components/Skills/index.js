@@ -24,12 +24,12 @@ export default function Skills(props) {
         {
             title: "React",
             experience: "Intermediate",
-            topics: ["Developed various projects", "Functional programming"]
+            topics: ["Functional components"]
         },
         {
             title: "PHP",
             experience: "Advanced",
-            topics: ["OOP", "MVC architecture"]
+            topics: ["Object-oriented programming", "MVC architecture"]
         },
         {
             title: "Node.js",
@@ -42,9 +42,19 @@ export default function Skills(props) {
             topics: ["MySQL", "PostgreSQL"]
         },
         {
+            title: "Workflow",
+            experience: "",
+            topics: ["Agile Methodology", "Code Versioning"]
+        },
+        {
+            title: "IDEs",
+            experience: "",
+            topics: ["NetBeans IDE", "VS Code"]
+        },
+        {
             title: "Others",
             experience: "",
-            topics: ["Basic Git Workflow", "jQuery", "BIRT", "PHPUnit", "Production Deploys", "NetBeans IDE", "VS Code"]
+            topics: ["jQuery", "Unit Testing"]
         }
     ];
 
