@@ -463,6 +463,120 @@ const projects = [
         <p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
         
         <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a href="https://www.livramento.dev/">Website</a></p>`, "technologies": "React, HTML, CSS, JavaScript, PHP, MySQL, GitHub Projects and PHPUnit"
+    },
+    {
+    "id": 10,
+    "title": "Thunder Fox Arena",
+    "launchdate": "2022-08-01T03:00:00.000Z",
+    "abstract": "Thunder Fox Arena is a 1 vs 1 reimagination made in JavaScript of the original 1991 game released for Sega Mega Drive.",
+    "technologies": "JavaScript, HTML, CSS and PhotoShop",
+    "description": `
+        <img src="/10/horizontal_banner.png" style="width: 100%"/>
+
+        <h2 id="legal">⚠ Legal - Information to Taito</h2>
+        
+        <p>
+            All assets, music, stages, sounds and the Thunder Fox brand belong to Taito Corporation.
+        </p>
+        
+        <p>
+            As stated on the "About" page, this game was developed as a homage to the original Thunder Fox released 
+            back in 1991, for beign a game that makes a important part of my life, bringing back good childhood memories.
+        </p>
+        
+        <p>
+            I developed the game under <b>Fair Use</b>, and I intend no harm to Taito Corporation. Also, I get 
+            absolutely zero financial return for this project.
+        </p>
+        
+        <ul>
+            <li>I take <b>no profits</b> from Thunder Fox Arena.</li>
+            <li>I <b>don't sell</b> Thunder Fox Arena.</li>
+            <li>I <b>will never</b> monetize Thunder Fox Arena in any shape or form.</li>
+        </ul>
+        
+        <h2 id="how-to-play">🎮 How to Play?</h2>
+        
+        <img src="/10/how_to_play_github.png" style="width: 100%"/>
+        
+        <h2 id="current-status">⌚ Current Status</h2>
+        <p>
+            In this section, I'll constantly update Thunder Fox Arena current status.
+        </p>
+        
+        <p>
+            <b>Start date:</b> May, 9th 2022
+            <br/>
+            <b>End date:</b> August, 1st 2022
+            <br/>
+            <b>Hours taken:</b> ~95
+            <br/>
+            <b>Status:</b> Complete
+        </p>
+        
+        <h2 id="about-the-project">💻 About the project</h2>
+        
+        <p>
+            <b>Thunder Fox Arena</b> is a 1 vs 1 reimagination made in JavaScript of the original 1991 game released 
+            for Sega Mega Drive.
+        </p>
+        
+        <p>
+            As a developer, I constantly build stuff in my free time in order to improve my skills, but, even after 
+            more than five years of experience with programming, I never took the time to build a game as I always stuck with "traditional" softwares.
+        </p>
+        <p>
+            I'm a big time gamer, starting my career on my early ages, so, the process to decide which game I was 
+            going to build was rather simple: recreate a 1 vs 1 version of the first game that I played, when I was 
+            4 or 5 years old. Thunder Fox really has its own place in my heart.
+        </p>
+        <p>
+            Another factor that inspired me to make this game, was a <a target="_blank" 
+            href="https://www.youtube.com/watch?v=vyqbNFMDRGQ">YouTube video</a> that was suggested to me about 
+            JavaScript game development. Even though I'm an experienced developer, I was jumping into <em>unknown 
+            territory</em>, since this is my first game ever developed, so, this video tutorial taught me some solutions
+            that I probably wouldn't be able to come up with on my own.
+        </p>
+        
+        <h2 id="live-demo">🔪 Play the Game</h2>
+        
+        <p>You can play Thunder Fox Arena by clicking the button below:</p>
+
+        <a href="https://livramatheus.github.io/thunder-fox-arena/" style="width: fit-content; height: fit-content">
+            <img src="/10/play_btn.png"/>
+        </a>
+        
+        <h3>Screenshots:</h3>
+
+        <div class="img-row desktop">
+            <img src="/10/thumb_1.webp" height="280"/>
+            <img src="/10/thumb_2.webp" height="280"/>
+            <img src="/10/thumb_3.webp" height="280"/>
+            <img src="/10/thumb_4.webp" height="280"/>
+        </div>
+
+        <h3 id="technologies-front">🔨 Technologies</h3>
+        
+        <p>
+            This project was developed with <b>HTML, CSS and JavaScript</b>. The only third-party library used was <a href="https://createjs.com/preloadjs" target="_black">preloadjs</a> in order to prevent broken sprites and delayed sounds.
+        </p>
+        
+        <p>
+            A crucial tool for the progress of the project was a modified version of the <b>Gens emulator</b>, which was used to individually extract all sprites from the original game. To create the Sprite Sheets, animations and image manipulations in general, <b>Adobe Photoshop</b> was used.
+        </p>
+        
+        <h3 id="code-contributing">👨‍💻 Code/Contributing</h3>
+        
+        <p>
+            Thunder Fox Arena is an open source project. Be free to open new issues or Merge Requests in order to improve the project.
+        </p>
+        
+        <h3 id="author">👩‍🦲 Author</h3>
+        
+        <p>Developed by <strong>Matheus do Livramento</strong>.</p>
+        
+        <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a href="https://www.livramento.dev/">Website</a></p>
+    `
     }
 ];
 
