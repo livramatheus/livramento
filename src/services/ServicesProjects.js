@@ -592,7 +592,7 @@ const getProjects = () => {
 
 const getProject = (id) => {
     return new Promise((resolve, reject) => {
-        let selected = projects.find(e => { return e.id == id; })
+        let selected = projects.find(e => { return e.id === parseInt(id); })
         resolve({ data: selected });
     })
 };
