@@ -29,10 +29,10 @@ const projects = [
     {
         "id": 5, "title": "Livramento.dev", "launchdate": "2021-11-06T03:00:00.000Z", "abstract": "This is my personal portfolio, built from scratch using React.", "description": `<h2 id="about-the-project">About the project</h2>
         <p>
-            This is my personal portfolio, built from scratch using React. One of my main goals, other than presenting my own work is deliver a solid product, being fast with no loading times.
+            This is my personal portfolio, built from scratch using React. One of my main goals, other than presenting my own work, is to deliver a solid product, being fast with no loading times.
         </p>
         <p>
-            My next goal with this project is applying <b>Next.js</b>, which will make adding more content easy, preserving the low loading times. 
+            My next goal with this project is to apply <b>Next.js</b>, which will make adding more content easy, preserving the low loading times. 
         </p>
         <h2 id="front-end">Front-end</h2>
         <p>The client side of Livramento.dev is fully responsive. Check its layout below:</p>
