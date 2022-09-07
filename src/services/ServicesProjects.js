@@ -134,7 +134,7 @@ const projects = [
                 src="https://github.com/livramatheus/java-keywords-challenge/raw/main/src/assets/1_d.png"/>
         </div>
         <h3 id="technologies-front"> Technologies</h3>
-        <p>The following techlogies were used to build Java Keywords Challenge's front-end:</p>
+        <p>The following technologies were used to build Java Keywords Challenge's front-end:</p>
         <ul>
             <li><a href="https://www.npmjs.com/package/react-icons">React Icons</a></li>
             <li><a href="https://www.npmjs.com/package/react-countdown">React Countdown</a></li>
