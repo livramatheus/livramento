@@ -99,12 +99,12 @@ const projects = [
         <h2 id="about-the-project">About the project</h2>
         <p>This was an attempt to mimic Express router in PHP. The outcome went pretty well, resembling a lot the "Original" Express.</p>
         <p>The final product offers a router that accepts GET and POST requests.</p>
-        <p>This project is actually kinda small, and wasn't tested a lot, so there is still a lot more room to improve.</p>
-        <p>I'm aware that there is classes for managing requests and responses, but I wanted to build everything from scratch.</p>
+        <p>This project is actually kind of small, and wasn't tested a lot, so there is still a lot more room to improve.</p>
+        <p>I'm aware that there are classes for managing requests and responses, but I wanted to build everything from scratch.</p>
         <h2 id="features">Features</h2>
         <p>This package offers a simple and standardized way to declare routes, accepting GET and POST parameters.</p>
         <h2 id="back-end">Back-end</h2>
-        <p>The router is based on two main classes: Router and Response. Router receives and manages routes, Response is used to sent data back to the client.</p>
+        <p>The router is based on two main classes: Router and Response. Router receives and manages routes. Response is used to send data back to the client.</p>
         <h3 id="technologies-back">Technologies</h3>
         <ul>
             <li><a href="https://getcomposer.org/">Composer, for autoloading classes</a></li>
