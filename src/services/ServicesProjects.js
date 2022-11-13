@@ -509,7 +509,7 @@ const projects = [
             <br/>
             <b>End date:</b> August, 1st 2022
             <br/>
-            <b>Hours taken:</b> ~95
+            <b>Hours taken:</b> ~98
             <br/>
             <b>Status:</b> Complete
         </p>
@@ -558,8 +558,17 @@ const projects = [
         <h3 id="technologies-front">🔨 Technologies</h3>
         
         <p>
-            This project was developed with <b>HTML, CSS and JavaScript</b>. The only third-party library used was <a href="https://createjs.com/preloadjs" target="_black">preloadjs</a> in order to prevent broken sprites and delayed sounds.
+            This project was developed with <b>HTML, CSS and JavaScript</b>. Thus, a few third-party libraries used were used, such as:
         </p>
+    
+        <ul>
+            <li>
+                <a href="https://createjs.com/preloadjs" target="_black">preloadjs</a> in order to prevent broken sprites and delayed sounds.
+            </li>
+            <li>
+                <a href="https://github.com/alvaromontoro/gamecontroller.js" target="_black">gamecontroller.js</a> in order to handle gamepads, such as wireless controllers.
+            </li>
+        </ul>
         
         <p>
             A crucial tool for the progress of the project was a modified version of the <b>Gens emulator</b>, which was used to individually extract all sprites from the original game. To create the Sprite Sheets, animations and image manipulations in general, <b>Adobe Photoshop</b> was used.
