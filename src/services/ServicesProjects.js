@@ -373,7 +373,7 @@ const projects = [
         
         <h3 id="technologies-front">Technologies</h3>
         
-        <p>The following techlogies were used to build PlanetGame front-end:</p>
+        <p>The following technologies were used to build PlanetGame front-end:</p>
         <ul>
             <li><a href="https://www.npmjs.com/package/@mui/material">@mui/material</a></li>
             <li><a href="https://www.npmjs.com/package/@date-io/date-fns">@date-io/date-fns</a></li>
@@ -403,7 +403,7 @@ const projects = [
         
         <h3 id="technologies-back">Technologies</h3>
         
-        <p>The following techlogies were used to build PlanetGame back-end:</p>
+        <p>The following technologies were used to build PlanetGame back-end:</p>
         <ul>
             <li><a href="https://packagist.org/packages/mpratt/relativetime">mpratt/relativetime</a> - For converting dates to sentences like "1 year ago"</li>
             <li><a href="https://packagist.org/packages/mofodojodino/profanity-filter">mofodojodino/profanity-filter</a> - For filtering out bad words from forms</li>
