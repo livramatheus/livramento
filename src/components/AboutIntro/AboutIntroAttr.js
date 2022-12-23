@@ -14,7 +14,7 @@ function AboutIntroAttr() {
                 <div>
                     <FaCode size="1.9rem"/>
                 </div>
-                <div>3+ Years of experience</div>
+                <div>4+ Years of experience</div>
             </div>
             <div className="about-intro-attr-item">
                 <div>

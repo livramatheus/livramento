@@ -33,7 +33,7 @@ export default function AboutPage() {
                 <h1 className="header-article-title" >About</h1>
 
                 <div className="project-description">
-                    <p>I'm <strong>Matheus do Livramento</strong>, 27 years old, living in Santa Catarina, Brazil since I was born.</p>
+                    <p>I'm <strong>Matheus do Livramento</strong>, 28 years old, living in Santa Catarina, Brazil since I was born.</p>
                     <p>Since I was a kid technology has always caught my attention. Today, as a professional, I can safely affirm that working with and developing technology was the correct choice.</p>
                     <p>I'm a <strong>full stack developer</strong> and web development teacher with a <strong>bachelor degree in computer science</strong> who loves to code and learn new technologies that makes programming cleaner.</p>
                     <p>Below you can see an overview about my skills and professional life. You can also download my resume below:</p>
@@ -75,7 +75,7 @@ export default function AboutPage() {
 
                     <h2>Professional Carreer</h2>
 
-                    <p>When I was 16 I got my first job as an Office Assistant at Rio do Sul’s town hall. Today, 10 years later, I'm a <strong>professional full-stack developer</strong> and a web development teacher that had more than 150 students over the last 3 years.</p>
+                    <p>When I was 16, I got my first job as an Office Assistant at Rio do Sul’s town hall. Today, more than 10 years later, I'm a <strong>professional back-end software engineer</strong>. Also, under my career path, I was a web development teacher with more than 150 students.</p>
                     <p>Below you can see my professional career timeline:</p>
 
                     <Timeline />
