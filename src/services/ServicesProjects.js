@@ -194,7 +194,7 @@ const projects = [
 
         <h2 id="live-demo-br">Live demo</h2>
 
-        <p>Veja este projeto rodando no <a href="https://curso-php-folha.herokuapp.com/">Heroku</a></p>
+        <em>O projeto não está disponível porque não foi encontrada nenhuma solução gratuita viável para hospedagem.</em>
 
         <h2 id="features-br">Funcionalidades</h2>
 
@@ -294,7 +294,7 @@ const projects = [
         </p>
         
         <p>
-            Another crucial mechanism that I adopted for the first time on this project was having <b>three separate environments</b>: development, <a href="https://test-planetgame.netlify.app/">test</a> and <a href="https://planetgame.netlify.app/">production</a>. This was easily achivable by pushing code to distinct git branches and turning on auto deploy on Netlify and Heroku.
+            Another crucial mechanism that I adopted for the first time on this project was having <b>three separate environments</b>: development, test and production. This was easily achivable by pushing code to distinct git branches and turning on auto deploy on Netlify and Heroku.
         </p>
         
         <p>
@@ -307,7 +307,7 @@ const projects = [
         
         <h2 id="live-demo">Live demo</h2>
         
-        <p>Check out this project running on <a href="https://planetgame.netlify.app/">Netlify + Heroku</a></p>
+        <em>The project is unavailable because no viable free hosting solution has been found.</em>
         
         <h2 id="features">Features</h2>
         
