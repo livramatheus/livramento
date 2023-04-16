@@ -350,6 +350,7 @@ article h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 
 .contact-img {
