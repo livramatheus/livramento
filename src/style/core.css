@@ -180,6 +180,12 @@ td {
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
 }
 
+.gh-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 .gh-btn:hover {
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(185, 185, 185, 1) 90%);
@@ -313,6 +319,16 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
+    .gh-wrapper {
+        justify-content: space-between;
+    }
+
+    .gh-btn {
+        gap: 0.5rem;
+        padding: 0 0.7rem;
+        width: 100%;
+    }
+
     .paragrafo-flex {
         flex-direction: column;
     }

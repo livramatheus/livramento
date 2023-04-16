@@ -274,7 +274,7 @@ const projects = [
     },
     {
         "id": 9, "title": "PlanetGame", "launchdate": "2022-04-24T03:00:00.000Z", "abstract": "PlanetGame is a game database prototype website that indexes information about games, genres and publishers.", "description": `
-        <div style="display: flex; flex-direction: row; gap: 1rem">
+        <div class="gh-wrapper  ">
             <a href="https://github.com/livramatheus/planetgame_front" class="gh-btn">
                 <img src="/github-logo.svg" alt="Repository Front-end"> Front-end repo
             </a>
@@ -594,7 +594,7 @@ const projects = [
         "abstract": "YT-2-MP3 converts and downloads YouTube videos to MP3 files. It also offers a selection of trending music that can be easily downloaded.",
         "technologies": "React (TypeScript), Node (TypeScript)",
         "description": `
-        <div style="display: flex; flex-direction: row; gap: 1rem">
+        <div class="gh-wrapper">
             <a href="https://github.com/livramatheus/yt2mp3" class="gh-btn">
                 <img src="/github-logo.svg" alt="Repository Front-end"> Front-end repo
             </a>
