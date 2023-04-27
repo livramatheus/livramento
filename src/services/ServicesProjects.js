@@ -468,6 +468,7 @@ const projects = [
     "id": 10,
     "title": "Thunder Fox Arena",
     "launchdate": "2022-08-01T03:00:00.000Z",
+    "gitaddr": "https://github.com/livramatheus/thunder-fox-arena",
     "abstract": "Thunder Fox Arena is a 1 vs 1 reimagination made in JavaScript of the original 1991 game released for Sega Mega Drive.",
     "technologies": "JavaScript, HTML, CSS and PhotoShop",
     "description": `
