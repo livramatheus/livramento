@@ -457,7 +457,7 @@ const projects = [
     "description": `
         <img src="/10/horizontal_banner.png" style="width: 100%"/>
 
-        <h2 id="legal">⚠ Legal - Information to Taito</h2>
+        <h2 id="legal">Legal - Information to Taito</h2>
         
         <p>
             All assets, music, stages, sounds and the Thunder Fox brand belong to Taito Corporation.
@@ -479,11 +479,11 @@ const projects = [
             <li>I <b>will never</b> monetize Thunder Fox Arena in any shape or form.</li>
         </ul>
         
-        <h2 id="how-to-play">🎮 How to Play?</h2>
+        <h2 id="how-to-play">How to Play?</h2>
         
         <img src="/10/how_to_play_github.png" style="width: 100%"/>
         
-        <h2 id="current-status">⌚ Current Status</h2>
+        <h2 id="current-status">Current Status</h2>
         <p>
             In this section, I'll constantly update Thunder Fox Arena status.
         </p>
@@ -522,7 +522,7 @@ const projects = [
             that I probably wouldn't be able to come up with on my own.
         </p>
         
-        <h2 id="live-demo">🔪 Play the Game</h2>
+        <h2 id="live-demo">Play the Game</h2>
         
         <p>You can play Thunder Fox Arena by clicking the button below:</p>
 
@@ -539,7 +539,7 @@ const projects = [
             <img src="/10/thumb_4.webp" height="280"/>
         </div>
 
-        <h3 id="technologies-front">🔨 Technologies</h3>
+        <h3 id="technologies-front">Technologies</h3>
         
         <p>
             This project was developed with <b>HTML, CSS and JavaScript</b>. Thus, a few third-party libraries used were used, such as:
@@ -558,7 +558,7 @@ const projects = [
             A crucial tool for the progress of the project was a modified version of the <b>Gens emulator</b>, which was used to individually extract all sprites from the original game. To create the Sprite Sheets, animations and image manipulations in general, <b>Adobe Photoshop</b> was used.
         </p>
         
-        <h3 id="code-contributing">👨‍💻 Code/Contributing</h3>
+        <h3 id="code-contributing">Code/Contributing</h3>
         
         <p>
             Thunder Fox Arena is an open source project. Be free to open new issues or Merge Requests in order to improve the project.
