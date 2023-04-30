@@ -751,7 +751,7 @@ const projects = [
             This project's UI was generated with Midjourney and manually converted to HTML and CSS.
         </p>
         
-        <div>
+        <div class="img-row desktop">
             <img alt="midjourney-mockup" title="Midjourney mockup" src="/11/midjourney_01.png" height="300" />
         </div>
         
