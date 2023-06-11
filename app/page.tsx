@@ -1,7 +1,12 @@
+import AboutMe from "./components/AboutMe";
+import Greetings from "./components/Greetings";
+
 export default function Home() {
   return (
-    <main>
-      
-    </main>
+    <>
+      <Greetings/>
+
+      <AboutMe/>
+    </>
   )
 }
