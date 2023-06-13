@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={jost.className}>
-        <main className="min-h-screen bg-stone-900 py-16 px-56 flex flex-col gap-32">
+        <main className="min-h-screen bg-zinc-900 py-16 px-56 flex flex-col gap-32">
           <Nav/>
             {children}
           <Footer/>
