@@ -36,3 +36,23 @@
   list-style-type: square;
   margin: 0.2rem 0 0.2rem 2.5rem;
 }
+
+.portfolio-item .img-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.portfolio-item .desktop, .portfolio-item .mobile {
+  gap: 1%;
+  row-gap: 1vh;
+}
+
+.portfolio-item .desktop img {
+  max-width: 49%;
+}
+
+.portfolio-item .mobile img {
+  max-width: 24%;
+}
