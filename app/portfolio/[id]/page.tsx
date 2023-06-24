@@ -28,19 +28,30 @@ const PortfolioItem = (props: IProps) => {
   }, [props.params.id]);
 
   return (
-    <div>
+    <>
       {
         projectDetails && (
-          <>
-            <SectionTitle title={projectDetails.title} align="left" />
-            <span className="text-zinc-600">Launched {format(new Date(projectDetails.launchdate), "PPPP")}</span>
-            <div className="bg-zinc-800 text-zinc-200 px-8 py-6 my-10 border-l-8 border-zinc-400">{projectDetails.abstract}</div>
-            <RepoBtn title="View on GitHub" repoUrl={projectDetails.gitaddr} />
+          <section className="flex flex-col gap-10">
+            <div>
+              <SectionTitle title={projectDetails.title} align="left" />
+              <span className="text-zinc-600">Launched {format(new Date(projectDetails.launchdate), "PPPP")}</span>
+            </div>
+            
+            <div className="bg-zinc-800 text-zinc-200 px-8 py-6 border-l-8 border-zinc-400">
+              {projectDetails.abstract}
+            </div>
+            
+            <div className="flex gap-3">
+              {
+                projectDetails.repourl.map((r, k) => <RepoBtn key={k} title={r.title} repoUrl={r.url} />)
+              }
+            </div>
+            
             <div dangerouslySetInnerHTML={{ __html: projectDetails.description }} />
-          </>
+          </section>
         )
       }
-    </div>
+    </>
   );
 }
 

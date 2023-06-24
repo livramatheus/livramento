@@ -1,3 +1,8 @@
+interface IRepoURL {
+  title?: string;
+  url: string;
+}
+
 export default interface IProject {
   id: number;
   title: string;
@@ -5,5 +10,5 @@ export default interface IProject {
   abstract: string;
   description: string;
   technologies: string
-  gitaddr: string;
+  repourl: IRepoURL[];
 }
