@@ -1,12 +1,9 @@
-"use client";
-
 import SectionTitle from '@/app/components/SectionTitle';
 import './PortfolioItem.css';
 
-import IProject from "@/app/interfaces/Project";
-import { useEffect, useState } from "react";
 import format from 'date-fns/format';
 import RepoBtn from '@/app/components/RepoBtn';
+import IProject from '@/app/interfaces/Project';
 
 interface IProps {
   params: {
@@ -14,18 +11,9 @@ interface IProps {
   }
 }
 
-const PortfolioItem = (props: IProps) => {
-  const [ projectDetails, setProjectDetails ] = useState<null | IProject>(null);
-
-  useEffect(() => {
-    const fetchProjectDetails = async () => {
-      const response = await fetch(`/api/projects/${props.params.id}`);
-      const project = await response.json();
-      setProjectDetails(project);
-    }
-
-    fetchProjectDetails();
-  }, [props.params.id]);
+const PortfolioItem = async (props: IProps) => {
+  const response = await fetch(`${process.env.SERVER_URL}/api/projects/${props.params.id}`);
+  const projectDetails: IProject = await response.json();
 
   return (
     <>
