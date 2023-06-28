@@ -2,6 +2,11 @@ import IProject from "../interfaces/Project";
 import SectionTitle from "../components/SectionTitle";
 import PortfolioList from "../components/PortfolioList";
 
+export const metadata = {
+  title: "Livramento.dev - Portfolio",
+  description: 'Matheus do Livramento - Back-end software engineer',
+}
+
 const Portfolio = async () => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
   const jsonList = await response.json();
