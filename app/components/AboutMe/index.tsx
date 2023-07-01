@@ -50,7 +50,7 @@ const AboutMe = () => {
           </div>
 
 
-          <Button dest="#" text="More about Matheus" />
+          <Button dest="/about" text="More about Matheus" className="font-bold" />
         </div>
       </div>
     </section>
