@@ -10,7 +10,8 @@ export const metadata = {
 const Portfolio = async () => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
   const jsonList = await response.json();
-  const projects: IProject[] = jsonList.projectList;
+  let projects: IProject[] = jsonList.projectList;
+  projects = projects.reverse();
 
   return (
     <section className="flex flex-col items-center gap-8">
