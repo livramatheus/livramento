@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between">
+    <footer className="flex justify-between px-36">
       <span className="text-zinc-200">
         Developed by Matheus do Livramento
       </span>
