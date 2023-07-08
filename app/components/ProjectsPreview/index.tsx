@@ -19,7 +19,7 @@ const ProjectsPreview = (props: IProps) => {
             >
               <Link href={`/portfolio/${p.id}`} className="text-zinc-200 text-3xl font-bold hover:underline">{p.title}</Link>
               <div className="text-zinc-200">{p.abstract}</div>
-              <div className="text-zinc-600">Technologies: {p.technologies}</div>
+              <div className="text-zinc-500">Technologies: {p.technologies}</div>
             </div>
           )
         })
