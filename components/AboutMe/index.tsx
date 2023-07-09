@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { FaUserGraduate, FaCode, FaLaptopCode } from 'react-icons/fa';
+
 import AboutItm from "./AboutItm";
 import SectionTitle from "../SectionTitle";
 import Button from "../Button";

@@ -1,7 +1,7 @@
 import path from "path";
 import { promises as fs } from "fs";
+import IProject from "@/interfaces/Project";
 
-import IProject from "../../../interfaces/Project";
 
 interface IParams {
   params: {

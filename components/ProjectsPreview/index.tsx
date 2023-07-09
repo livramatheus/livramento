@@ -1,4 +1,4 @@
-import IProject from "@/app/interfaces/Project";
+import IProject from "@/interfaces/Project";
 import Link from "next/link";
 import SectionTitle from "../SectionTitle";
 

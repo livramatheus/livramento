@@ -1,7 +1,8 @@
 import Image from "next/image";
-import SectionTitle from "../components/SectionTitle";
 import { FaMapMarkerAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import ContactItem from "../components/ContactItem";
+
+import ContactItem from "@/components/ContactItem";
+import SectionTitle from "@/components/SectionTitle";
 
 const Contact = () => {
   return (
