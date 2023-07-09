@@ -72,7 +72,7 @@ const ProfessionalCarreer = () => {
         Below you can see my professional career timeline:
       </p>
 
-      <div className="grid grid-cols-2 gap-5 my-5">
+      <div className="grid max-md:grid-cols-1 grid-cols-2 gap-5 my-5">
         {
           professionalData.map((p, k) => {
             return <ProfessionalCard key={k} {...p} />

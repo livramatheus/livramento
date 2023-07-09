@@ -6,10 +6,10 @@ import ContactItem from "../components/ContactItem";
 const Contact = () => {
   return (
     <article className="flex flex-col gap-10">
-      <SectionTitle title="Reach me out" align="left"/>
+      <SectionTitle title="Reach me out"/>
 
-      <div className="flex justify-between items-center">
-        <div className="flex flex-col gap-7">
+      <div className="flex max-md:flex-col-reverse max-md:gap-8 justify-between items-center">
+        <div className="flex flex-col max-md:gap-4 gap-7">
           <ContactItem
             title="E-mail"
             desc="hire.livramento@gmail.com"

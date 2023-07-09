@@ -22,10 +22,10 @@ const AboutMe = () => {
   ];
 
   return (
-    <section className="flex gap-20 flex-col">
+    <section className="flex flex-col max-md:gap-10 gap-20">
       <SectionTitle title="About Me" />
 
-      <div className="flex gap-10">
+      <div className="flex gap-10 max-md:flex-col">
         <div className="flex flex-1 justify-center">
           <Image
             src="/matheus.jpg"
@@ -36,7 +36,7 @@ const AboutMe = () => {
           />
         </div>
 
-        <div className="flex flex-1 flex-col justify-between items-center">
+        <div className="flex flex-1 flex-col justify-between items-center max-md:gap-9">
           <span className="text-zinc-200 text-center">
             I&apos;m an expert in back-end software engineering. However, 
             my skills are not limited to PHP and Node.js, as I also 

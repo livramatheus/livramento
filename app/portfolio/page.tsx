@@ -14,7 +14,7 @@ const Portfolio = async () => {
   projects = projects.reverse();
 
   return (
-    <section className="flex flex-col items-center gap-8">
+    <section className="flex flex-col items-center max-md:gap-4 gap-8">
       <SectionTitle title="Portfolio" />
       <PortfolioList projects={projects} />
     </section>

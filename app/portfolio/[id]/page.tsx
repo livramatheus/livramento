@@ -34,28 +34,26 @@ const PortfolioItem = async (props: IProps) => {
   const projectDetails: IProject = await response.json();
 
   return (
-    <>
-      <section className="flex flex-col gap-8">
-        <div>
-          <SectionTitle title={projectDetails.title} align="left" />
-          <span className="text-zinc-600">Launched {format(new Date(projectDetails.launchdate), "PPPP")}</span>
+    <section className="flex flex-col gap-8">
+      <div>
+        <SectionTitle title={projectDetails.title} align="left" />
+        <span className="text-zinc-600">Launched {format(new Date(projectDetails.launchdate), "PPPP")}</span>
+      </div>
+      
+      <div className="flex flex-col gap-5">
+        <div className="bg-zinc-800 text-zinc-200 px-8 py-6 border-l-8 border-zinc-400">
+          {projectDetails.abstract}
         </div>
         
-        <div className="flex flex-col gap-5">
-          <div className="bg-zinc-800 text-zinc-200 px-8 py-6 border-l-8 border-zinc-400">
-            {projectDetails.abstract}
-          </div>
-          
-          <div className="flex gap-3">
-            {
-              projectDetails.repourl.map((r, k) => <RepoBtn key={k} title={r.title} repoUrl={r.url} />)
-            }
-          </div>
+        <div className="flex gap-3">
+          {
+            projectDetails.repourl.map((r, k) => <RepoBtn key={k} title={r.title} repoUrl={r.url} />)
+          }
         </div>
-        
-        <article className="portfolio-item" dangerouslySetInnerHTML={{ __html: projectDetails.description }} />
-      </section>
-    </>
+      </div>
+      
+      <article className="portfolio-item" dangerouslySetInnerHTML={{ __html: projectDetails.description }} />
+    </section>
   );
 }
 
