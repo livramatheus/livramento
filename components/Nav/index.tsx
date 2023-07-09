@@ -1,6 +1,6 @@
 "use client";
 
-import INavLinks from "@/app/interfaces/INavLinks";
+import INavLinks from "@/interfaces/INavLinks";
 import Link from "next/link";
 import { useState } from "react";
 import { RiHome2Line, RiMenuLine, RiMacbookLine, RiPassportLine, RiMailLine } from "react-icons/ri";

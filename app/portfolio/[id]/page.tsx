@@ -1,10 +1,9 @@
-import SectionTitle from '@/app/components/SectionTitle';
 import './PortfolioItem.css';
-
 import format from 'date-fns/format';
-import RepoBtn from '@/app/components/RepoBtn';
-import IProject from '@/app/interfaces/Project';
+import IProject from '@/interfaces/Project';
 import { Metadata } from 'next';
+import SectionTitle from '@/components/SectionTitle';
+import RepoBtn from '@/components/RepoBtn';
 
 interface IProps {
   params: {

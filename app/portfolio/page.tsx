@@ -1,6 +1,6 @@
-import IProject from "../interfaces/Project";
-import SectionTitle from "../components/SectionTitle";
-import PortfolioList from "../components/PortfolioList";
+import SectionTitle from "@/components/SectionTitle";
+import PortfolioList from "@/components/PortfolioList";
+import IProject from "@/interfaces/Project";
 
 export const metadata = {
   title: "Livramento.dev - Portfolio",

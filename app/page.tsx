@@ -1,7 +1,8 @@
-import AboutMe from "./components/AboutMe";
-import Greetings from "./components/Greetings";
-import ProjectsPreview from "./components/ProjectsPreview";
-import IProject from "./interfaces/Project";
+import AboutMe from "@/components/AboutMe";
+import Greetings from "@/components/Greetings";
+import ProjectsPreview from "@/components/ProjectsPreview";
+import IProject from "@/interfaces/Project";
+
 
 export const metadata = {
   title: "Welcome - Livramento.dev",

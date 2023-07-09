@@ -1,8 +1,8 @@
-import SectionTitle from "../components/SectionTitle";
-import Skills from "../components/AboutPage/Skills";
-import ProfessionalCarreer from "../components/AboutPage/ProfessionalCarreer";
-import Languages from "../components/AboutPage/Languages";
-import Intro from "../components/AboutPage/Intro";
+import Intro from "@/components/AboutPage/Intro";
+import Languages from "@/components/AboutPage/Languages";
+import ProfessionalCarreer from "@/components/AboutPage/ProfessionalCarreer";
+import Skills from "@/components/AboutPage/Skills";
+import SectionTitle from "@/components/SectionTitle";
 
 const About = () => {
   return (

@@ -1,7 +1,8 @@
-import Footer from './components/Footer'
-import Nav from './components/Nav'
 import './globals.css'
 import { Jost } from 'next/font/google'
+
+import Nav from '@/components/Nav'
+import Footer from '@/components/Footer'
 
 const jost = Jost({ subsets: ['latin'] })
 
