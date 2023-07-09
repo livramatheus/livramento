@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Greetings = () => {
   return (
-    <section className="flex">
+    <section className="flex max-md:flex-col max-md:items-center max-md:text-center max-md:gap-9">
       <div className="flex-1 flex flex-col gap-8 justify-center">
         <h1 className="text-5xl font-bold text-zinc-200">
           Hello! I&apos;m Matheus do Livramento!

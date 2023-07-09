@@ -7,7 +7,7 @@ import Intro from "../components/AboutPage/Intro";
 const About = () => {
   return (
     <article className="flex flex-col gap-10 text-zinc-200">
-      <SectionTitle title="About" align="left" />
+      <SectionTitle title="About" />
 
       <Intro />
 

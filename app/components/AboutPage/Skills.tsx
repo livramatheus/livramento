@@ -55,7 +55,7 @@ const Skills = () => {
         Below you can see more detailed info about my skills:
       </p>
 
-      <div className="grid grid-cols-3 gap-5 my-5">
+      <div className="grid max-md:grid-cols-1 grid-cols-3 gap-5 my-5">
         {
           skillsData.map((s, k) => {
             return <SkillCard key={k} {...s} />
