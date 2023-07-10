@@ -6,7 +6,7 @@ interface IProps {
   projects: IProject[];
 }
 
-const ProjectsPreview = (props: IProps | null) => {
+const ProjectsPreview = (props: IProps) => {
   if (props?.projects) {
     return (
       <section className="flex flex-col max-md:gap-10 gap-20 ">

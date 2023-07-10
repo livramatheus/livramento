@@ -7,11 +7,21 @@ export const metadata = {
   description: 'Matheus do Livramento - Back-end software engineer',
 }
 
-const Portfolio = async () => {
+const fetchProjects = async () => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
-  const jsonList = await response.json();
-  let projects: IProject[] = jsonList.projectList;
-  projects = projects.reverse();
+
+  if (response.ok) {
+    const jsonList = await response.json();
+    let projects: IProject[] = jsonList.projectList;
+    projects = projects.reverse();
+    return projects;
+  }
+
+  return [];
+}
+
+const Portfolio = async () => {
+  const projects = await fetchProjects();
 
   return (
     <section className="flex flex-col items-center max-md:gap-4 gap-8">
