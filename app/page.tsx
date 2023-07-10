@@ -9,12 +9,22 @@ export const metadata = {
   description: 'Matheus do Livramento - Back-end software engineer',
 }
 
-export default async function Home() {
+const fetchProjects = async () => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
-  const jsonList = await response.json();
-  let projects: IProject[] = jsonList.projectList;
-  projects = projects.reverse();
-  projects = projects.slice(0, 3);
+
+  if (response.ok) {
+    const jsonList = await response.json();
+    let projects: IProject[] = jsonList.projectList;
+    projects = projects.reverse();
+    projects = projects.slice(0, 3);
+    return projects;
+  }
+
+  return [];
+}
+
+export default async function Home() {
+  const projects = await fetchProjects();
 
   return (
     <>

@@ -5,7 +5,7 @@ interface IProps {
   projects: IProject[];
 }
 
-const PortfolioList = (props: IProps | null) => {
+const PortfolioList = (props: IProps) => {
   if (props?.projects) {
     return (
       props?.projects.map((p, i) => {

@@ -16,44 +16,59 @@ interface IMetadataProps {
   searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export async function generateMetadata(props: IMetadataProps): Promise<Metadata> {
-  const response = await fetch(`${process.env.SERVER_URL}/api/projects/${props.params.id}`);
-  const projectDetails: IProject = await response.json();
+const fetchProject = async (id: string): Promise<IProject | null> => {
+  const response = await fetch(`${process.env.SERVER_URL}/api/projects/${id}`);
 
-  return {
-    title: `Livramento.dev - ${projectDetails.title}`,
-    description: `${projectDetails.title}, built with ${projectDetails.technologies}`,
-    keywords: [projectDetails.title, ...projectDetails.technologies.split(", ")],
-    authors: [{ name: "Matheus do Livramento", url: "https://livramento.dev" }]
+  if (response.ok) {
+    const projectDetails = await response.json();
+    return projectDetails;
   }
+
+  return null;
+}
+
+export async function generateMetadata(props: IMetadataProps): Promise<Metadata> {
+  const projectDetails = await fetchProject(props.params.id);
+
+  if (projectDetails) {
+    return {
+      title: `Livramento.dev - ${projectDetails.title}`,
+      description: `${projectDetails.title}, built with ${projectDetails.technologies}`,
+      keywords: [projectDetails.title, ...projectDetails.technologies.split(", ")],
+      authors: [{ name: "Matheus do Livramento", url: "https://livramento.dev" }]
+    }
+  }
+
+  return {};
 };
 
 const PortfolioItem = async (props: IProps) => {
-  const response = await fetch(`${process.env.SERVER_URL}/api/projects/${props.params.id}`);
-  const projectDetails: IProject = await response.json();
+  const projectDetails = await fetchProject(props.params.id);
 
-  return (
-    <section className="flex flex-col gap-8">
-      <div>
-        <SectionTitle title={projectDetails.title} align="left" />
-        <span className="text-zinc-600">Launched {format(new Date(projectDetails.launchdate), "PPPP")}</span>
-      </div>
-      
-      <div className="flex flex-col gap-5">
-        <div className="bg-zinc-800 text-zinc-200 px-8 py-6 border-l-8 border-zinc-400">
-          {projectDetails.abstract}
+  if (projectDetails) {
+    return (
+      <section className="flex flex-col gap-8">
+        <div>
+          <SectionTitle title={projectDetails.title} align="left" />
+          <span className="text-zinc-600">Launched {format(new Date(projectDetails.launchdate), "PPPP")}</span>
         </div>
         
-        <div className="flex gap-3">
-          {
-            projectDetails.repourl.map((r, k) => <RepoBtn key={k} title={r.title} repoUrl={r.url} />)
-          }
+        <div className="flex flex-col gap-5">
+          <div className="bg-zinc-800 text-zinc-200 px-8 py-6 border-l-8 border-zinc-400">
+            {projectDetails.abstract}
+          </div>
+          
+          <div className="flex gap-3">
+            {
+              projectDetails.repourl.map((r, k) => <RepoBtn key={k} title={r.title} repoUrl={r.url} />)
+            }
+          </div>
         </div>
-      </div>
-      
-      <article className="portfolio-item" dangerouslySetInnerHTML={{ __html: projectDetails.description }} />
-    </section>
-  );
+        
+        <article className="portfolio-item" dangerouslySetInnerHTML={{ __html: projectDetails.description }} />
+      </section>
+    );
+  }
 }
 
 export default PortfolioItem;
