@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Matheus do Livramento - Back-end software engineer',
 }
 
-const fetchProjects = async () => {
+const fetchProjects = async (): Promise<IProject[] | null> => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
 
   if (response.ok) {
@@ -17,18 +17,20 @@ const fetchProjects = async () => {
     return projects;
   }
 
-  return [];
+  return null;
 }
 
 const Portfolio = async () => {
   const projects = await fetchProjects();
 
-  return (
-    <section className="flex flex-col items-center max-md:gap-4 gap-8">
-      <SectionTitle title="Portfolio" />
-      <PortfolioList projects={projects} />
-    </section>
-  );
+  if (projects) {
+    return (
+      <section className="flex flex-col items-center max-md:gap-4 gap-8">
+        <SectionTitle title="Portfolio" />
+        <PortfolioList projects={projects} />
+      </section>
+    );
+  }
 }
 
 export default Portfolio;
