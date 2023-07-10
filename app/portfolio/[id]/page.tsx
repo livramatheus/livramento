@@ -18,6 +18,8 @@ interface IMetadataProps {
 
 const fetchProject = async (id: string): Promise<IProject | null> => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects/${id}`);
+  
+  console.log(`TESTING -> ${process.env.SERVER_URL}/api/projects/${id}`);
 
   if (response.ok) {
     const projectDetails = await response.json();
