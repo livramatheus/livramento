@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Matheus do Livramento - Back-end software engineer',
 }
 
-const fetchProjects = async () => {
+const fetchProjects = async (): Promise<IProject[] | null> => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
 
   if (response.ok) {
@@ -20,7 +20,7 @@ const fetchProjects = async () => {
     return projects;
   }
 
-  return [];
+  return null;
 }
 
 export default async function Home() {
@@ -32,7 +32,9 @@ export default async function Home() {
 
       <AboutMe/>
 
-      <ProjectsPreview projects={projects} />
+      {
+        projects && <ProjectsPreview projects={projects} />
+      }
     </>
   )
 }
