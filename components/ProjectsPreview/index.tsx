@@ -6,17 +6,15 @@ interface IProps {
   projects: IProject[];
 }
 
-const ProjectsPreview = (props: IProps) => {
-  const { projects } = props;
-
-  if (projects !== undefined) {
+const ProjectsPreview = (props: IProps | null) => {
+  if (props?.projects) {
     return (
       <section className="flex flex-col max-md:gap-10 gap-20 ">
         <SectionTitle title="Latest Projects" />
   
         <div className="grid grid-cols-2 gap-4">
           {
-            projects.map((p, k) => {
+            props?.projects.map((p, k) => {
               return (
                 <div
                   key={k}

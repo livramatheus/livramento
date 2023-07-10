@@ -5,10 +5,10 @@ interface IProps {
   projects: IProject[];
 }
 
-const PortfolioList = ({ projects }: IProps) => {
-  if (projects !== undefined) {
+const PortfolioList = (props: IProps | null) => {
+  if (props?.projects) {
     return (
-      projects.map((p, i) => {
+      props?.projects.map((p, i) => {
         return (
           <div key={i} className="flex flex-col gap-3 bg-zinc-800 py-8 px-7 rounded-lg border-l-8 max-md:w-full w-9/12 border-zinc-400 hover:border-blue-400">
             <Link href={`/portfolio/${p.id}`} className="text-zinc-200 text-3xl font-bold hover:underline">{p.title}</Link>
