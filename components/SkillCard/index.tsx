@@ -1,4 +1,5 @@
-import { IconType } from "react-icons";
+import React from 'react';
+import { IconType } from 'react-icons';
 
 interface IProps {
   title: string;
@@ -6,13 +7,13 @@ interface IProps {
   Icon: IconType;
 }
 
-const SkillCard = (props: IProps) => {
+function SkillCard(props: IProps) {
   const { title, desc, Icon } = props;
 
   return (
     <div className="flex gap-6 border border-zinc-500 rounded-lg p-6">
       <div className="flex items-center">
-        <Icon className="text-2xl"/>
+        <Icon className="text-2xl" />
       </div>
 
       <div className="flex flex-col justify-center">

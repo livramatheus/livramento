@@ -1,13 +1,13 @@
-import AboutMe from "@/components/AboutMe";
-import Greetings from "@/components/Greetings";
-import ProjectsPreview from "@/components/ProjectsPreview";
-import IProject from "@/interfaces/Project";
-
+import React from 'react';
+import AboutMe from '@/components/AboutMe';
+import Greetings from '@/components/Greetings';
+import ProjectsPreview from '@/components/ProjectsPreview';
+import IProject from '@/interfaces/Project';
 
 export const metadata = {
-  title: "Welcome - Livramento.dev",
+  title: 'Welcome - Livramento.dev',
   description: 'Matheus do Livramento - Back-end software engineer',
-}
+};
 
 const fetchProjects = async (): Promise<IProject[] | null> => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
@@ -21,20 +21,20 @@ const fetchProjects = async (): Promise<IProject[] | null> => {
   }
 
   return null;
-}
+};
 
 export default async function Home() {
   const projects = await fetchProjects();
 
   return (
     <>
-      <Greetings/>
+      <Greetings />
 
-      <AboutMe/>
+      <AboutMe />
 
       {
         projects && <ProjectsPreview projects={projects} />
       }
     </>
-  )
+  );
 }

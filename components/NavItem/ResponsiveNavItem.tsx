@@ -1,5 +1,6 @@
-import Link from "next/link";
-import { IconType } from "react-icons";
+import React from 'react';
+import Link from 'next/link';
+import { IconType } from 'react-icons';
 
 interface IProps {
   title: string;
@@ -8,8 +9,10 @@ interface IProps {
   setMenuOpen: (menuOpen: boolean) => void;
 }
 
-const ResponsiveNavItem = (props: IProps) => {
-  const { title, href, Icon, setMenuOpen } = props;
+function ResponsiveNavItem(props: IProps) {
+  const {
+    title, href, Icon, setMenuOpen,
+  } = props;
 
   return (
     <div className="flex gap-4 items-center">
@@ -18,7 +21,7 @@ const ResponsiveNavItem = (props: IProps) => {
         {title}
       </Link>
     </div>
-  )
+  );
 }
 
 export default ResponsiveNavItem;

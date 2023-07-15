@@ -1,4 +1,5 @@
-import { IconType } from "react-icons";
+import React from 'react';
+import { IconType } from 'react-icons';
 
 interface IProps {
   title: string;
@@ -6,8 +7,7 @@ interface IProps {
   Icon: IconType;
 }
 
-const ContactItem = (props: IProps) => {
-
+function ContactItem(props: IProps) {
   const { title, desc, Icon } = props;
 
   return (

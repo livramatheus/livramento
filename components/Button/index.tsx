@@ -1,16 +1,19 @@
-import Link from "next/link";
-import { IconType } from "react-icons";
+import React from 'react';
+import Link from 'next/link';
+import { IconType } from 'react-icons';
 
 interface IProps {
   text: string;
   dest: string;
   Icon?: IconType;
-  target?: "_blank" | "_self" | "_parent" | "_top";
+  target?: '_blank' | '_self' | '_parent' | '_top';
   className?: string;
 }
 
-const Button = (props: IProps) => {
-  const { text, dest, Icon, target = "_self", className = "" } = props;
+function Button(props: IProps) {
+  const {
+    text, dest, Icon, target = '_self', className = '',
+  } = props;
 
   return (
     <Link
@@ -21,7 +24,13 @@ const Button = (props: IProps) => {
       { Icon && <Icon /> }
       <span>{text}</span>
     </Link>
-  )
+  );
 }
+
+Button.defaultProps = {
+  Icon: null,
+  target: '_self',
+  className: '',
+};
 
 export default Button;

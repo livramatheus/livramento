@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="flex justify-between max-md:px-5 px-36">
       <span className="text-zinc-200">

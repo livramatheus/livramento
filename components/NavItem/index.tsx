@@ -1,14 +1,15 @@
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 interface IProps {
   title: string;
   href: string;
 }
 
-const NavItem = (props: IProps) => {
+function NavItem(props: IProps) {
   const { title, href } = props;
 
-  return <Link className="hover:underline" href={href}>{title}</Link>
+  return <Link className="hover:underline" href={href}>{title}</Link>;
 }
 
 export default NavItem;

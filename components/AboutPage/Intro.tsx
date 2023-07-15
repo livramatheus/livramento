@@ -1,31 +1,45 @@
-import { FaDownload } from "react-icons/fa";
-import Button from "../Button";
+import React from 'react';
+import { FaDownload } from 'react-icons/fa';
+import Button from '../Button';
 
-const Intro = () => {
+function Intro() {
   const getMatheusAge = (): number => {
-    let currentDate = new Date();
-    let birthDate = new Date("1994-12");
-    let timeDiff = currentDate.getTime() - birthDate.getTime();
-    
+    const currentDate = new Date();
+    const birthDate = new Date('1994-12');
+    const timeDiff = currentDate.getTime() - birthDate.getTime();
+
     return new Date(timeDiff).getUTCFullYear() - 1970;
-  }
+  };
 
   return (
     <div className="flex flex-col gap-4">
       <p>
-        I&apos;m Matheus do Livramento, {getMatheusAge()} years old, living in Santa Catarina,
+        I&apos;m Matheus do Livramento,
+        {' '}
+        {getMatheusAge()}
+        {' '}
+        years old, living in Santa Catarina,
         Brazil since I was born.
       </p>
 
       <p>
-        I&apos;m a <b>back-end software engineer</b> and former web development teacher with 
-        a bachelor degree in <b>computer science</b>. I absolutely love to code and learn new 
+        I&apos;m a
+        {' '}
+        <b>back-end software engineer</b>
+        {' '}
+        and former web development teacher with
+        a bachelor degree in
+        {' '}
+        <b>computer science</b>
+        . I absolutely love to code and learn new
         patterns that make programming cleaner.
       </p>
 
       <p>
         Below you can see an overview about my skills and professional life.
-        You can also <b>download my resume below:</b>
+        You can also
+        {' '}
+        <b>download my resume below:</b>
       </p>
 
       <div className="flex justify-center gap-5 my-5">
