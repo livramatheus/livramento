@@ -1,30 +1,33 @@
-"use client";
+'use client';
 
-import INavLinks from "@/interfaces/INavLinks";
-import Link from "next/link";
-import { useState } from "react";
-import { RiHome2Line, RiMenuLine, RiMacbookLine, RiPassportLine, RiMailLine } from "react-icons/ri";
-import NavItem from "../NavItem";
-import ResponsiveNavItem from "../NavItem/ResponsiveNavItem";
+import React, { useState } from 'react';
+import INavLinks from '@/interfaces/INavLinks';
+import Link from 'next/link';
 
-const Nav = () => {
+import {
+  RiHome2Line, RiMenuLine, RiMacbookLine, RiPassportLine, RiMailLine,
+} from 'react-icons/ri';
+import NavItem from '../NavItem';
+import ResponsiveNavItem from '../NavItem/ResponsiveNavItem';
+
+function Nav() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   const navLinks: INavLinks[] = [
     {
-      title: "Portfolio",
-      href: "/portfolio",
-      Icon: RiMacbookLine
+      title: 'Portfolio',
+      href: '/portfolio',
+      Icon: RiMacbookLine,
     },
     {
-      title: "About",
-      href: "/about",
-      Icon: RiPassportLine
+      title: 'About',
+      href: '/about',
+      Icon: RiPassportLine,
     },
     {
-      title: "Contact",
-      href: "/contact",
-      Icon: RiMailLine
+      title: 'Contact',
+      href: '/contact',
+      Icon: RiMailLine,
     },
   ];
 
@@ -46,7 +49,7 @@ const Nav = () => {
       </div>
 
       <div
-        className={`hidden max-md:flex gap-4 flex-col w-1/2 h-screen fixed top-0 left-0 bg-zinc-900 shadow-lg border-r border-zinc-700 p-10 transition-transform ${menuOpen || "-translate-x-full"}`}
+        className={`hidden max-md:flex gap-4 flex-col w-1/2 h-screen fixed top-0 left-0 bg-zinc-900 shadow-lg border-r border-zinc-700 p-10 transition-transform ${menuOpen || '-translate-x-full'}`}
       >
         <h3 className="text-xl font-bold mb-5">Menu</h3>
         <div className="flex gap-4 items-center">
@@ -57,13 +60,13 @@ const Nav = () => {
         </div>
 
         {
-          navLinks.map((l, k) => <ResponsiveNavItem key={k} {...l} setMenuOpen={setMenuOpen} />)
+          navLinks.map((l) => <ResponsiveNavItem key={`${l.title}r`} {...l} setMenuOpen={setMenuOpen} />)
         }
       </div>
 
       <div className="flex max-md:hidden gap-10">
         {
-          navLinks.map((l, k) => <NavItem key={k} title={l.title} href={l.href} />)
+          navLinks.map((l) => <NavItem key={`${l.title}d`} title={l.title} href={l.href} />)
         }
       </div>
     </nav>

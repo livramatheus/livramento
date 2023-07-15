@@ -1,13 +1,14 @@
-import Image from "next/image";
-import { FaMapMarkerAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import React from 'react';
+import Image from 'next/image';
+import { FaMapMarkerAlt, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
-import ContactItem from "@/components/ContactItem";
-import SectionTitle from "@/components/SectionTitle";
+import ContactItem from '@/components/ContactItem';
+import SectionTitle from '@/components/SectionTitle';
 
-const Contact = () => {
+function Contact() {
   return (
     <article className="flex flex-col gap-10">
-      <SectionTitle title="Reach me out"/>
+      <SectionTitle title="Reach me out" />
 
       <div className="flex max-md:flex-col-reverse max-md:gap-8 justify-between items-center">
         <div className="flex flex-col max-md:gap-4 gap-7">
@@ -27,7 +28,7 @@ const Contact = () => {
             Icon={FaGithub}
           />
         </div>
-        
+
         <Image
           src="/chatbot.svg"
           height={350}
@@ -36,7 +37,7 @@ const Contact = () => {
         />
       </div>
     </article>
-  )
+  );
 }
 
 export default Contact;

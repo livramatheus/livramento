@@ -1,5 +1,8 @@
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-const LoadingSpinner = () => <span className="loading-spinner"></span>
+function LoadingSpinner() {
+  return <span className="loading-spinner" />;
+}
 
 export default LoadingSpinner;

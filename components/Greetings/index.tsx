@@ -1,6 +1,7 @@
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
-const Greetings = () => {
+function Greetings() {
   return (
     <section className="flex max-md:flex-col max-md:items-center max-md:text-center max-md:gap-9">
       <div className="flex-1 flex flex-col gap-8 justify-center">
@@ -9,8 +10,8 @@ const Greetings = () => {
         </h1>
 
         <span className="text-zinc-200">
-          I welcome you to my website! Here you will 
-          get to know more about me, about my work and what 
+          I welcome you to my website! Here you will
+          get to know more about me, about my work and what
           are my next steps into web development!
         </span>
       </div>

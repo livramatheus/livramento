@@ -1,11 +1,12 @@
-import { IconType } from "react-icons";
+import React from 'react';
+import { IconType } from 'react-icons';
 
 interface IAboutItmProps {
   title: string;
   Icon: IconType;
 }
 
-const AboutItm = (props: IAboutItmProps) => {
+function AboutItm(props: IAboutItmProps) {
   const { title, Icon } = props;
 
   return (

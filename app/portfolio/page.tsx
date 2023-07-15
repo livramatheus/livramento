@@ -1,11 +1,12 @@
-import SectionTitle from "@/components/SectionTitle";
-import PortfolioList from "@/components/PortfolioList";
-import IProject from "@/interfaces/Project";
+import React from 'react';
+import SectionTitle from '@/components/SectionTitle';
+import PortfolioList from '@/components/PortfolioList';
+import IProject from '@/interfaces/Project';
 
 export const metadata = {
-  title: "Livramento.dev - Portfolio",
+  title: 'Livramento.dev - Portfolio',
   description: 'Matheus do Livramento - Back-end software engineer',
-}
+};
 
 const fetchProjects = async (): Promise<IProject[] | null> => {
   const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
@@ -18,7 +19,7 @@ const fetchProjects = async (): Promise<IProject[] | null> => {
   }
 
   return null;
-}
+};
 
 const Portfolio = async () => {
   const projects = await fetchProjects();
@@ -31,6 +32,8 @@ const Portfolio = async () => {
       </section>
     );
   }
-}
+
+  return null;
+};
 
 export default Portfolio;

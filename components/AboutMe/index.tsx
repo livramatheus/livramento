@@ -1,24 +1,28 @@
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 import { FaUserGraduate, FaCode, FaLaptopCode } from 'react-icons/fa';
 
-import AboutItm from "./AboutItm";
-import SectionTitle from "../SectionTitle";
-import Button from "../Button";
+import AboutItm from './AboutItm';
+import SectionTitle from '../SectionTitle';
+import Button from '../Button';
 
-const AboutMe = () => {
+function AboutMe() {
   const aboutItems = [
     {
-      title: "Computer Science Bachelor",
-      icon: FaUserGraduate
-    },
-    { 
-      title: `${new Date().getFullYear() - 2018}+ Years of experience`,
-      icon: FaCode
+      key: 1,
+      title: 'Computer Science Bachelor',
+      icon: FaUserGraduate,
     },
     {
-      title: "8+ Web Technologies", 
-      icon: FaLaptopCode
+      key: 2,
+      title: `${new Date().getFullYear() - 2018}+ Years of experience`,
+      icon: FaCode,
+    },
+    {
+      key: 3,
+      title: '8+ Web Technologies',
+      icon: FaLaptopCode,
     },
   ];
 
@@ -39,17 +43,16 @@ const AboutMe = () => {
 
         <div className="flex flex-1 flex-col justify-between items-center max-md:gap-9">
           <span className="text-zinc-200 text-center">
-            I&apos;m an expert in back-end software engineering. However, 
-            my skills are not limited to PHP and Node.js, as I also 
+            I&apos;m an expert in back-end software engineering. However,
+            my skills are not limited to PHP and Node.js, as I also
             like to mess around with front-end stuff in my spare time.
           </span>
 
           <div className="flex gap-5">
             {
-              aboutItems.map((e, i) => <AboutItm key={i} title={e.title} Icon={e.icon} />)
+              aboutItems.map((e) => <AboutItm key={e.key} title={e.title} Icon={e.icon} />)
             }
           </div>
-
 
           <Button dest="/about" text="More about Matheus" className="font-bold" />
         </div>
