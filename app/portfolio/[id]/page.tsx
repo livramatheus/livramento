@@ -61,6 +61,11 @@ const PortfolioItem = async (props: IProps) => {
         <div className="flex flex-col gap-5">
           <div className="bg-zinc-800 text-zinc-200 px-8 py-6 border-l-8 border-zinc-400">
             {projectDetails.abstract}
+            {' '}
+            It was built with
+            {' '}
+            {projectDetails.technologies}
+            .
           </div>
 
           <div className="flex gap-3">
