@@ -15,6 +15,7 @@ function PortfolioList(props: IProps) {
           <div className="text-zinc-200">{p.abstract}</div>
           <div className="text-zinc-600">
             Technologies:
+            {' '}
             {p.technologies}
           </div>
         </div>
