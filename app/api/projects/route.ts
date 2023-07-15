@@ -1,7 +1,7 @@
 import path from 'path';
 import { promises as fs } from 'fs';
 
-const GET = async () => {
+export const GET = async () => {
   const jsonDirectory = path.join(process.cwd(), 'data');
   const fileContents = await fs.readFile(`${jsonDirectory}/projects.json`, 'utf8');
 
@@ -9,5 +9,3 @@ const GET = async () => {
     status: 200,
   });
 };
-
-export default GET;

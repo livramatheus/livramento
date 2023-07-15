@@ -8,7 +8,7 @@ interface IParams {
   }
 }
 
-const GET = async (request: Request, params: IParams) => {
+export const GET = async (request: Request, params: IParams) => {
   try {
     const { id } = params.params;
 
@@ -32,5 +32,3 @@ const GET = async (request: Request, params: IParams) => {
     });
   }
 };
-
-export default GET;
