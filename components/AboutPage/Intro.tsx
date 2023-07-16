@@ -42,7 +42,7 @@ function Intro() {
         <b>download my resume below:</b>
       </p>
 
-      <div className="flex justify-center gap-5 my-5">
+      <div className="flex justify-center items-center gap-5 my-5 max-md:flex-col">
         <Button
           text="Portuguese Resume"
           dest="https://drive.google.com/file/d/12bEHx_lNWTDdKxA6e-bcbutT0v8zdHgD/view"
