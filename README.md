@@ -1,34 +1,168 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Livramento's Portfolio</h1>
 
-## Getting Started
+<ul>
+    <li><a href="#english-documentation">English documentation</a></li>
+    <li><a href="#documentação-em-português">Documentação em português</a></li>
+</ul>
 
-First, run the development server:
+<hr>
+<p>
+<h1 id="english-documentation">English Documentation</h1>
+</p>
+<h2>📜 Table of content</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<!--ts-->
+<ul>
+    <li><a href="#about-the-project">About the project</a></li>
+    <li><a href="#live-demo">Live demo</a></li>
+    <li><a href="#front-end">Front-end</a></li>
+    <ul>
+        <li><a href="#layout">Layout</a></li>
+        <li><a href="#technologies-front">Technologies</a></li>
+    </ul>
+    <li><a href="#inspirations">Inspirations</a></li>
+    <li><a href="#author">Author</a></li>
+</ul>
+<!--te-->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 id="about-the-project">💻 About the project</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p>
+    This is my personal portfolio, built with Next.js, Tailwind and TypeScript. One of my main goals, other than presenting my own work is deliver a solid product, being fast with no loading times.
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p>
+    Another point I had in mind during development was to use as few third-party libraries as possible, in order to keep the architecture as "self-contained" as possible (and with the advantage of not being bothered every day by the dependabot).
+</p>
 
-## Learn More
+<h2 id="live-demo">🌐 Live demo</h2>
 
-To learn more about Next.js, take a look at the following resources:
+<p>Check out this project running on <a href="https://www.livramento.dev/">Vercel</a></p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="front-end">Front-end</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p>The client side of Livramento.dev is fully responsive. Check its layout below:</p>
 
-## Deploy on Vercel
+<h3 id="layout">📐 Layout</h3>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h4>Mobile</h4>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div style="display: flex">
+  <img src="./github/mobile_overview.gif" />
+</div>
+
+<h4>Desktop</h4>
+
+<div style="display: flex">
+  <img src="./github/desktop_overview.gif" />
+</div>
+
+<h3 id="technologies-front">🔨 Technologies</h3>
+
+<p>The following technologies were used to build the application's front-end:</p>
+
+<ul>
+  <li>Next.js</li>
+  <li>Tailwind CSS</li>
+  <li>Typescript</li>
+  <li>react-icons</li>
+  <li>date-fns</li>
+  <li>eslint</li>
+</ul>
+
+<h3 id="inspirations">😁 Inspirations</h3>
+
+<p>This portfolio was inspired by the following projects:</p>
+<ul>
+    <li><a href="https://www.figma.com/community/file/824810955262478067">Ryan Warner Codes, by Ryan Warner</a></li>
+    <li><a href="https://youtu.be/27JtRAI3QO8">Personal Portfolio Website, by Bedimcode</a></li>
+</ul>
+
+<h3 id="author">👩‍🦲 Author</h3>
+
+<p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
+
+<p><a href="https://github.com/livramatheus">GitHub</a> | <a
+        href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a
+        href="https://www.livramento.dev/">Website</a></p>
+
+<hr />
+
+<h1 id="documentação-em-português">Documentação em português</h1>
+<h2>📜 Tabela de conteúdo</h2>
+
+<ul>
+    <li><a href="#about-the-project-br">Sobre o projeto</a></li>
+    <li><a href="#live-demo-br">Live demo</a></li>
+    <li><a href="#front-end-br">Front-end</a></li>
+    <ul>
+        <li><a href="#layout-br">Layout</a></li>
+        <li><a href="#technologies-front-br">Tecnologias</a></li>
+    </ul>
+    <li><a href="#inspirations-br">Inspirações</a></li>
+    <li><a href="#autor-br">Autor</a></li>
+</ul>
+
+<h2 id="about-the-project-br">💻 Sobre o projeto</h2>
+
+<p>
+    Este é o meu portfólio pessoal, desenvolvido com Next.js, Tailwind e TypeScript. Um dos meus principais objetivos, além de apresentar o meu próprio trabalho, é entregar um produto sólido, sendo rápido e sem tempos de carregamento.
+</p>
+
+<p>
+    Outro ponto que tive em mente durante o desenvolvimento,
+    foi de usar o mínimo de bibliotecas de terceiros, a fim 
+    de manter a arquitetura o mais "self-contained" possível
+    (e com a vantagem de não ser incomodado todo dia pelo Dependabot).
+</p>
+
+<h2 id="live-demo-br">🌐 Live demo</h2>
+
+<p>Veja este projeto rodando no <a href="https://www.livramento.dev/">Vercel</a></p>
+
+<h2 id="front-end-br">Front-end</h2>
+
+<p>O lado do cliente de <strong>Livramento.dev</strong> é totalmente responsivo. Veja a seguir seu layout:
+</p>
+
+<h3 id="layout-br">📐 Layout</h3>
+
+<h4>Mobile</h4>
+
+<div style="display: flex">
+  <img src="./github/mobile_overview.gif" />
+</div>
+
+<h4>Desktop</h4>
+
+<div style="display: flex">
+  <img src="./github/desktop_overview.gif" />
+</div>
+
+<h3 id="technologies-front-br">🔨 Tecnologias</h3>
+
+<p>As seguintes tecnologias foram utilizadas para construir o front-end da aplicação:</p>
+
+<ul>
+  <li>Next.js</li>
+  <li>Tailwind CSS</li>
+  <li>Typescript</li>
+  <li>react-icons</li>
+  <li>date-fns</li>
+  <li>eslint</li>
+</ul>
+
+<h3 id="inspirations-br">😁 Inspirações</h3>
+
+<p>Este portfolio foi inspirado pelos seguintes projetos:</p>
+<ul>
+    <li><a href="https://www.figma.com/community/file/824810955262478067">Ryan Warner Codes, by Ryan Warner</a></li>
+    <li><a href="https://youtu.be/27JtRAI3QO8">Personal Portfolio Website, by Bedimcode</a></li>
+</ul>
+
+<h3 id="autor-br">👩‍🦲 Autor</h3>
+
+<p>Full stack desenvolvido por <strong>Matheus do Livramento</strong>.</p>
+<p><a href="https://github.com/livramatheus">GitHub</a> | <a
+        href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a
+        href="https://www.livramento.dev/">Website</a></p>
