@@ -1,6 +1,7 @@
 import path from 'path';
 import { promises as fs } from 'fs';
 import IProject from '@/interfaces/Project';
+import { revalidatePath } from 'next/cache';
 
 interface IParams {
   params: {
@@ -16,6 +17,7 @@ export const GET = async (request: Request, params: IParams) => {
     const fileContents = await fs.readFile(`${jsonDirectory}/projects.json`, 'utf8');
     const projects = JSON.parse(fileContents).projectList;
     const project = projects.find((p: IProject) => Number(p.id) === Number(id));
+    revalidatePath('/projects/[id]');
 
     if (project) {
       return new Response(JSON.stringify(project), {
