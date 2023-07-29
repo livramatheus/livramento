@@ -49,18 +49,18 @@
 
 <div style="display: flex">
     <img alt="Mobile 1" title="Mobilie 1"
-        src="./github/1_m.webp" height="350" />
+        src="/public/projects/5/1_m.webp" height="350" />
     <img alt="Mobile 2" title="Mobilie 2"
-        src="./github/2_m.webp" height="350" />
+        src="/public/projects/5/2_m.webp" height="350" />
 </div>
 
 <h4>Desktop</h4>
 
 <div style="display: flex">
     <img alt="Desktop 1" title="Desktop 1"
-        src="./github/1_d.webp" height="280" />
+        src="/public/projects/5/1_d.webp" height="280" />
     <img alt="Desktop 2" title="Desktop 2"
-        src="./github/2_d.webp" height="280" />
+        src="/public/projects/5/2_d.webp" height="280" />
 </div>
 
 <h3 id="technologies-front">🔨 Technologies</h3>
@@ -137,18 +137,18 @@
 
 <div style="display: flex">
     <img alt="Mobile 1" title="Mobilie 1"
-        src="./github/1_m.webp" height="350" />
+        src="/public/projects/5/1_m.webp" height="350" />
     <img alt="Mobile 2" title="Mobilie 2"
-        src="./github/2_m.webp" height="350" />
+        src="/public/projects/5/2_m.webp" height="350" />
 </div>
 
 <h4>Desktop</h4>
 
 <div style="display: flex">
     <img alt="Desktop 1" title="Desktop 1"
-        src="./github/1_d.webp" height="280" />
+        src="/public/projects/5/1_d.webp" height="280" />
     <img alt="Desktop 2" title="Desktop 2"
-        src="./github/2_d.webp" height="280" />
+        src="/public/projects/5/2_d.webp" height="280" />
 </div>
 
 <h3 id="technologies-front-br">🔨 Tecnologias</h3>
