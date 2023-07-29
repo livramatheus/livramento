@@ -49,9 +49,9 @@
 
 <div style="display: flex">
     <img alt="Mobile 1" title="Mobilie 1"
-        src="./github/1_m.webp" height="280" />
+        src="./github/1_m.webp" height="350" />
     <img alt="Mobile 2" title="Mobilie 2"
-        src="./github/2_m.webp" height="280" />
+        src="./github/2_m.webp" height="350" />
 </div>
 
 <h4>Desktop</h4>
@@ -137,9 +137,9 @@
 
 <div style="display: flex">
     <img alt="Mobile 1" title="Mobilie 1"
-        src="./github/1_m.webp" height="280" />
+        src="./github/1_m.webp" height="350" />
     <img alt="Mobile 2" title="Mobilie 2"
-        src="./github/2_m.webp" height="280" />
+        src="./github/2_m.webp" height="350" />
 </div>
 
 <h4>Desktop</h4>
