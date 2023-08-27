@@ -9,7 +9,10 @@ export const metadata = {
 };
 
 const fetchProjects = async (): Promise<IProject[] | null> => {
-  const response = await fetch(`${process.env.SERVER_URL}/api/projects`);
+  const response = await fetch(
+    `${process.env.SERVER_URL}/api/projects`,
+    { next: { revalidate: 600 } },
+  );
 
   if (response.ok) {
     const jsonList = await response.json();

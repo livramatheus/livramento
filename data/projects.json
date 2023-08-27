@@ -139,6 +139,19 @@
           "url": "https://github.com/livramatheus/yt2mp3-back"
         }
       ]
+    },
+    {
+      "id": 12,
+      "title": "ez-ux (Easy UX)",
+      "launchdate": "2023-04-27T03:00:00.000Z",
+      "abstract": "Midjourney UI generation inputs made easy!",
+      "description": "<h2 id=\"about-the-project\">💻 About the project</h2><p>ez-ux is a tool to easily build Midjourney prompts for UX, ranging from mobile apps all the way to desktop landing pages. This application also allows the user to refine the prompt and even choose a specific color palette.</p><h2 id=\"live-demo\">🌐 Live demo</h2><p>Check out this project running on <a href=\"https://livramatheus.github.io/ez-ux\">GitHub Pages</a></p><h2 id=\"features\">🔎 Features</h2><ul>    <li>Builds Midjourney prompts for UX</li>    <li>Allows predefined customizations such as \"Type\", \"Refinements\" and \"Color Palettes\"</li><li>Allows the user to edit the final prompt before copying it</li></ul><h2 id=\"front-end\">Front-end</h2><p><b>ez-ux</b> was built with HTML, CSS, and JavaScript. Since it was a simple app, I wanted to keep the stack simple as well.</p><h3 id=\"layout\">📐 Layout</h3><h4>Mobile</h4><div class=\"img-row mobile\"><img src=\"/projects/12/1m.png\" alt=\"Mobile 1\" title=\"Mobile 1\" height=\"280\"/><img src=\"/projects/12/2m.png\" alt=\"Mobile 2\" title=\"Mobile 2\" height=\"280\"/></div><h4>Desktop</h4><div class=\"img-row desktop\"><img src=\"/projects/12/1d.png\" alt=\"Desktop 1\" title=\"Desktop 1\" height=\"280\"/><img src=\"/projects/12/2d.png\" alt=\"Desktop 2\" title=\"Desktop 2\" height=\"280\"/></div><h3 id=\"technologies-front\">🔨 Technologies</h3><p>The following technologies were used to build ez-ux front-end:</p><ul>    <li>HTML, CSS and Javascript</li>    <li><a href=\"https://www.cssscript.com/demo/single-multi-select-vanilla/\">Vanilla SelectBox</a></li></ul><h3 id=\"how-to-set-up\">❓ How to set up</h3><p>Just get a local copy and run it with Live Server.</p>",
+      "technologies": "HTML, CSS and Javascript",
+      "repourl": [
+        {
+          "url": "https://github.com/livramatheus/ez-ux"
+        }
+      ]
     }
   ]
 }
