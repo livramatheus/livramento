@@ -28,7 +28,7 @@ function Skills() {
     },
     {
       title: 'Misc',
-      desc: 'Agile Methodology, Code Versioning, Unit Tests',
+      desc: 'CI/CD, GitHub Actions, Agile Methodology, Code Versioning, Unit Tests',
       Icon: FaElementor,
     },
     {
