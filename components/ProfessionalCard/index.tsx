@@ -12,7 +12,7 @@ interface IProps {
 
 function ProfessionalCard(props: IProps) {
   const {
-    title, location, desc, skills, timespan, Icon,
+    title, location, desc, skills = null, timespan, Icon,
   } = props;
 
   return (
@@ -38,9 +38,5 @@ function ProfessionalCard(props: IProps) {
     </div>
   );
 }
-
-ProfessionalCard.defaultProps = {
-  skills: null,
-};
 
 export default ProfessionalCard;

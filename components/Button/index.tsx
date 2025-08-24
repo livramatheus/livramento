@@ -12,7 +12,7 @@ interface IProps {
 
 function Button(props: IProps) {
   const {
-    text, dest, Icon, target = '_self', className = '',
+    text, dest, Icon = null, target = '_self', className = '',
   } = props;
 
   return (
@@ -26,11 +26,5 @@ function Button(props: IProps) {
     </Link>
   );
 }
-
-Button.defaultProps = {
-  Icon: null,
-  target: '_self',
-  className: '',
-};
 
 export default Button;

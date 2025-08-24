@@ -32,7 +32,8 @@ const fetchProject = async (id: string): Promise<IProject | null> => {
 };
 
 export async function generateMetadata(props: IMetadataProps): Promise<Metadata> {
-  const projectDetails = await fetchProject(props.params.id);
+  const { id } = await props.params;
+  const projectDetails = await fetchProject(id);
 
   if (projectDetails) {
     return {
@@ -47,7 +48,8 @@ export async function generateMetadata(props: IMetadataProps): Promise<Metadata>
 }
 
 const PortfolioItem = async (props: IProps) => {
-  const projectDetails = await fetchProject(props.params.id);
+  const { id } = await props.params;
+  const projectDetails = await fetchProject(id);
 
   if (projectDetails) {
     return (

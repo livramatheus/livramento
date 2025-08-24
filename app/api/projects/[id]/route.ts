@@ -10,7 +10,7 @@ interface IParams {
 
 export const GET = async (request: Request, params: IParams) => {
   try {
-    const { id } = params.params;
+    const { id } = await params.params;
 
     const jsonDirectory = path.join(process.cwd(), 'data');
     const fileContents = await fs.readFile(`${jsonDirectory}/projects.json`, 'utf8');
