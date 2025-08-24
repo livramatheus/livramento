@@ -2,15 +2,12 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import IProject from '@/interfaces/Project';
 
-interface Context {
-  params: {
-    id: string;
-  };
-}
-
-export async function GET(request: Request, context: Context) {
+export async function GET(
+  request: Request,
+  { params }: { params: { id: string } }
+) {
   try {
-    const { id } = context.params;
+    const { id } = params;
 
     const jsonDirectory = path.join(process.cwd(), 'data');
     const fileContents = await fs.readFile(`${jsonDirectory}/projects.json`, 'utf8');
