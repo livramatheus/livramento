@@ -2,6 +2,8 @@ import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import Button from '../Button';
 
+export const revalidate = 86400;
+
 function Intro() {
   const getMatheusAge = (): number => {
     const currentDate = new Date();
