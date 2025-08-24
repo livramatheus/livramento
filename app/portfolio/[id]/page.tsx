@@ -6,12 +6,6 @@ import { Metadata } from 'next';
 import SectionTitle from '@/components/SectionTitle';
 import RepoBtn from '@/components/RepoBtn';
 
-interface IProps {
-  params: {
-    id: string;
-  }
-}
-
 interface IMetadataProps {
   params: { id: string }
   searchParams: { [key: string]: string | string[] | undefined }
@@ -47,7 +41,7 @@ export async function generateMetadata(props: IMetadataProps): Promise<Metadata>
   return {};
 }
 
-const PortfolioItem = async (props: IProps) => {
+const PortfolioItem = async (props) => {
   const { id } = await props.params;
   const projectDetails = await fetchProject(id);
 
