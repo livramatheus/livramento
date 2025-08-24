@@ -2,6 +2,12 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import IProject from '@/interfaces/Project';
 
+interface Context {
+  params: {
+    id: string;
+  };
+}
+
 export async function GET(request: Request, context: Context) {
   try {
     const { id } = context.params;
