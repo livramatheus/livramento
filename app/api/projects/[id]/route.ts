@@ -26,4 +26,4 @@ export async function GET(request: Request, context: any) {
       status: 500,
     });
   }
-};
+}
